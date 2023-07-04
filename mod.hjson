@@ -1,0 +1,9 @@
+name: "renewable-ores"
+displayName: "Renewable Ores"
+description: ore
+author: "Heroblack "
+minGameVersion: "145.1"
+version: "0.1"
+main: "adc.AdcMod"
+repo: Heroblack303/ore
+java: true
