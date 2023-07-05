@@ -1,0 +1,21 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ore",
+  "description": "Ore",
+  "health": 100,
+  "size": 1,
+  "requirements": [
+    { "item": "scrap", "amount": 0}
+    ],
+  "research": "low-power-scrap-generator",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 50,
+  "consumes": {
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 100,
+  "outputItem": { "item": "scrap", "amount": 2}
+}
