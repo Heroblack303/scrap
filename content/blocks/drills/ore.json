@@ -10,7 +10,7 @@
   "research": "low-power-scrap-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 300,
+  "craftTime": 600,
   "consumes": {
   },
   "updateEffect": "smeltsmoke",
