@@ -1,13 +1,13 @@
 {
   "type": "GenericCrafter",
-  "name": "Ore",
-  "description": "Ore",
+  "name": "Scrap t1",
+  "description": "Scrap t1",
   "health": 100,
   "size": 1,
   "requirements": [
     { "item": "scrap", "amount": 0}
-    ],
-  "research": "low-power-scrap-generator",
+  ],
+  "research": "scrap-generator",
   "hasPower": true,
   "hasItems": true,
   "craftTime": 600,

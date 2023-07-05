@@ -1,0 +1,39 @@
+{
+  "type": "Separator",
+  "name": "Ore t1",
+  "description": "Ore t1",
+  "health": 250,
+  "size": 2,
+  "requirements": [
+    { "item": "scrap","amount": 300}
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "scrap",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "research": "ore-t1-generator",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 30,
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 100,
+  "results": [
+    {
+      "item": "copper",
+      "amount": 25
+    },
+    {
+      "item": "lead",
+      "amount": 25
+    }
+  ]
+  
+}
