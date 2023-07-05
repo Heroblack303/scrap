@@ -1,9 +1,14 @@
-name: "renewable-ores"
-displayName: "Renewable Ores"
-description: ore
-author: "Heroblack "
-minGameVersion: "145.1"
-version: "0.1"
-main: "adc.AdcMod"
-repo: Heroblack303/ore
-java: true
+{
+    displayName: Regenerated ores
+    repo: Heroblack303/ore
+    name: so
+
+    author: Heroblack303
+        
+    description:
+        Regenerated ores
+
+    subtitle: "Now with Helicopters!"
+    minGameVersion: 145.1
+    version: "0.1"
+}
