@@ -10,12 +10,12 @@
   "research": "low-power-scrap-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 50,
+  "craftTime": 300,
   "consumes": {
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 100,
-  "outputItem": { "item": "scrap", "amount": 2}
+  "outputItem": { "item": "scrap", "amount": 50}
 }
