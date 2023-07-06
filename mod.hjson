@@ -1,14 +1,14 @@
 {
-    displayName: Regenerated ores
-    repo: Heroblack303/ore
+    displayName: Scrap ores
+    repo: Heroblack303/scrap
     name: so
 
     author: Heroblack303
         
     description:
-        Regenerated ores
+        Scrap ores
 
-    subtitle: "Regenerated ores yes!"
+    subtitle: "Scrap ores yes!"
     minGameVersion: 145.1
     version: "0.1"
 }
