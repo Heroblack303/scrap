@@ -5,9 +5,9 @@
   "size": 1,
   "researchCostMultiplier": 0.5,
   "health": 500,
-  "itemCapacity": 500,
+  "itemCapacity": 1000,
   "requirements": [
-    { "item": "scrap","amount": 500}
+    { "item": "scrap","amount": 1000}
   ],
   "category": "effect",
   "research": "mini-cores",

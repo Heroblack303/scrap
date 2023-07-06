@@ -6,7 +6,7 @@
   "size": 1,
   "hasPower": true,
   "hasLiquids": false,
-  "powerProduction": 1,
+  "powerProduction": 0.25,
   "requirements": [
     { "item": "scrap","amount": 200}
   ],

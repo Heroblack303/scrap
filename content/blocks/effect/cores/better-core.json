@@ -4,7 +4,7 @@
   "description": "Better core.",
   "size": 2,
   "researchCostMultiplier": 0.5,
-  "health": 2000,
+  "health": 1000,
   "itemCapacity": 2000,
   "requirements": [
     { "item": "scrap","amount": 2000}
