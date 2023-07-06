@@ -1,0 +1,43 @@
+{
+  "type": "Separator",
+  "name": "Null",
+  "description": "Null",
+  "size": 4,
+  "hasPower": true,
+  "solid": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 60,
+  "craftTime": 10,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 999999
+    },
+    {
+      "item": "graphite",
+      "amount": 999999
+    },
+    {
+      "item": "titanium",
+      "amount": 9999999
+    },
+    {
+      "item": "plastanium",
+      "amount": 9999999
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 9999999
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 99999999
+    }
+  ],
+  "results": [
+  ],
+  "category": "walls",
+  "research": "null",
+  "health": 99999999999999999999999999
+}
