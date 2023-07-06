@@ -1,5 +1,5 @@
 {
-  "type": "Walls",
+  "type": "Separator",
   "name": "Null",
   "description": "Null",
   "size": 1,
@@ -7,37 +7,40 @@
   "solid": true,
   "hasLiquids": true,
   "hasItems": true,
-  "liquidCapacity": 60,
   "craftTime": 10,
+  "consumes": {
+  },
   "requirements": [
+    { "item": "lead","amount": 99999},
+    { "item": "graphite","amount": 99999},
+    { "item": "titanium","amount": 99999},
+    { "item": "plastanium","amount": 99999},
+    { "item": "phase-fabric","amount": 99999},
+    { "item": "surge-alloy","amount": 99999}
+  ],
+  "results": [
+    {
+      "item": "copper",
+      "amount": 10
+    },
     {
       "item": "lead",
-      "amount": 99999
+      "amount": 10
     },
     {
       "item": "graphite",
-      "amount": 99999
+      "amount": 6
     },
     {
       "item": "titanium",
-      "amount": 99999
+      "amount": 6
     },
     {
-      "item": "plastanium",
-      "amount": 99999
-    },
-    {
-      "item": "phase-fabric",
-      "amount": 99999
-    },
-    {
-      "item": "surge-alloy",
-      "amount": 99999
+      "item": "thorium",
+      "amount": 4
     }
   ],
-  "results": [
-  ],
-  "category": "walls",
+  "category": "crafting",
   "research": "null",
-  "health": 99999999999999999999999
+  "health": 99999
 }
