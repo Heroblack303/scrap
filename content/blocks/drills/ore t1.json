@@ -18,21 +18,21 @@
     }
   },
   "research": "ore-t1-generator",
-  "hasPower": true,
+  "hasPower": false,
   "hasItems": true,
-  "craftTime": 30,
+  "craftTime": 3,
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
-  "itemCapacity": 100,
+  "itemCapacity": 10,
   "results": [
     {
       "item": "copper",
-      "amount": 25
+      "amount": 40
     },
     {
       "item": "lead",
-      "amount": 25
+      "amount": 40
     }
   ]
   

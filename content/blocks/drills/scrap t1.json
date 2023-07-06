@@ -8,7 +8,7 @@
     { "item": "scrap", "amount": 0}
   ],
   "research": "scrap-generator",
-  "hasPower": true,
+  "hasPower": false,
   "hasItems": true,
   "craftTime": 600,
   "consumes": {

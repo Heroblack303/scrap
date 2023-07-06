@@ -2,12 +2,13 @@
   "type": "GenericCrafter",
   "name": "Scrap t2",
   "description": "Scrap t2",
-  "health": 200,
+  "health": 400,
   "size": 1,
   "requirements": [
-    { "item": "scrap", "amount": 100},
-    { "item": "copper", "amount": 50},
-    { "item": "lead", "amount": 50}
+    { "item": "copper", "amount": 100},
+    { "item": "lead", "amount": 100},
+    { "item": "coal", "amount": 50},
+    { "item": "titanium", "amount": 50}
   ],
   "research": "scrap-generator",
   "hasPower": false,
@@ -18,6 +19,6 @@
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
-  "itemCapacity": 200,
-  "outputItem": { "item": "scrap", "amount": 50}
+  "itemCapacity": 400,
+  "outputItem": { "item": "scrap", "amount": 100}
 }

@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ore t2",
+  "description": "Ore t2",
+  "health": 500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 150},
+    { "item": "lead", "amount": 150}
+  ],
+  "research": "scrap-generator",
+  "hasPower": false,
+  "hasItems": true,
+  "craftTime": 30,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "scrap",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "coal", "amount": 4}
+}
