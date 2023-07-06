@@ -1,5 +1,5 @@
 {
-  "type": "Separator",
+  "type": "GenericCrafter",
   "name": "Null",
   "description": "Null",
   "size": 1,
@@ -22,25 +22,9 @@
     {
       "item": "copper",
       "amount": 10
-    },
-    {
-      "item": "lead",
-      "amount": 10
-    },
-    {
-      "item": "graphite",
-      "amount": 6
-    },
-    {
-      "item": "titanium",
-      "amount": 6
-    },
-    {
-      "item": "thorium",
-      "amount": 4
     }
   ],
-  "category": "crafting",
+  "category": "walls",
   "research": "null",
   "health": 99999
 }
