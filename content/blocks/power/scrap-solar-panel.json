@@ -1,0 +1,15 @@
+{
+  "type": "SolarGenerator",
+  "name": "Scrap Solar Panel",
+  "description": "Energy comes from scrap.",
+  "health": 10,
+  "size": 1,
+  "hasPower": true,
+  "hasLiquids": false,
+  "powerProduction": 1,
+  "requirements": [
+    { "item": "scrap","amount": 200}
+  ],
+  "category": "power",
+  "research": "scrap-panel"
+}
