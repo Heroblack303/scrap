@@ -1,0 +1,19 @@
+{
+  "type": "flying",
+  "name": "[white]Mini Scrap",
+  "description": "Mini Scrap.",
+  "drag": 0.15,
+  "speed": 1,
+  "research": "mini-core-units",
+  "buildSpeed": 1,
+  "mineSpeed": 2,
+  "mineTier": 1,
+  "armor": 1,
+  
+  "coreUnitDock": true,
+  
+  "health": 10,
+  "flying": true,
+  "itemCapacity": 5,
+  "hitSize": 1
+}

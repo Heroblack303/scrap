@@ -1,0 +1,16 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Mini",
+  "description": "Test core.",
+  "size": 1,
+  "researchCostMultiplier": 0.5,
+  "health": 500,
+  "itemCapacity": 500,
+  "requirements": [
+    { "item": "scrap","amount": 500}
+  ],
+  "category": "effect",
+  "research": "mini-cores",
+  "unitType": "scrap-mini",
+  "unitCapModifier": 1
+}
