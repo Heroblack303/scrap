@@ -1,0 +1,19 @@
+{
+  "type": "flying",
+  "name": "[white]Better Scrap",
+  "description": "Better Scrap.",
+  "drag": 0.15,
+  "speed": 2,
+  "research": "mini-core-units",
+  "buildSpeed": 0.5,
+  "mineSpeed": 4,
+  "mineTier": 1,
+  "armor": 1,
+  
+  "coreUnitDock": true,
+  
+  "health": 40,
+  "flying": true,
+  "itemCapacity": 10,
+  "hitSize": 1
+}
