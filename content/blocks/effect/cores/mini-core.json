@@ -6,7 +6,6 @@
   "researchCostMultiplier": 0.5,
   "health": 500,
   "itemCapacity": 1000,
-  "outputItem": { "item": "copper", "amount": 1},
   "requirements": [
     { "item": "scrap","amount": 500}
   ],
@@ -23,6 +22,7 @@
       ]
     }
   },
+  "outputItem": { "item": "copper", "amount": 1},
   "unitType": "scrap-mini",
   "unitCapModifier": 2
 }
