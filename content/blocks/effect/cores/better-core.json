@@ -7,10 +7,10 @@
   "health": 1000,
   "itemCapacity": 2000,
   "requirements": [
-    { "item": "scrap","amount": 2000}
+    { "item": "scrap","amount": 1000}
   ],
   "category": "effect",
   "research": "better-cores",
   "unitType": "scrap-better",
-  "unitCapModifier": 1
+  "unitCapModifier": 4
 }

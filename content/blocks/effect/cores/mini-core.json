@@ -7,10 +7,10 @@
   "health": 500,
   "itemCapacity": 1000,
   "requirements": [
-    { "item": "scrap","amount": 1000}
+    { "item": "scrap","amount": 500}
   ],
   "category": "effect",
   "research": "mini-cores",
   "unitType": "scrap-mini",
-  "unitCapModifier": 1
+  "unitCapModifier": 2
 }

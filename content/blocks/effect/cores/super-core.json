@@ -7,10 +7,10 @@
   "health": 2000,
   "itemCapacity": 4000,
   "requirements": [
-    { "item": "scrap","amount": 4000}
+    { "item": "scrap","amount": 2000}
   ],
   "category": "effect",
   "research": "super-cores",
   "unitType": "alpha",
-  "unitCapModifier": 1
+  "unitCapModifier": 8
 }
