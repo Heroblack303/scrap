@@ -22,4 +22,24 @@ if(this.canBeBuilt() && this.requirements.length > 0){
 this.stats.add(Stat.buildTime, this.buildCost / 60, StatUnit.seconds);
         }
     }
+});
+miniCore.buildType = () => extend(CoreBlock.CoreBuild, miniCore, {
+	//enemy bullet hitting the block
+collision(bullet){
+            this.super$collision(bullet);
+            //bullet create chance
+            if(healChance > 0){
+                if(Mathf.chance(healChance)){
+                //amount of bullets created
+                    for(var i = 0; i < healBullets; i++){
+                    	//bullet summoning
+                    healBullet.create(this, this.x, this.y, (cone / healBullets) * i + Mathf.random(healBulletInaccuracy));
+                    Fx.healWave.at(this.x, this.y)
+                    healBulletSound.at(this)
+                }
+                }
+            }
+          //can enemy bullets hit the core
+      return true;
+}
 })
