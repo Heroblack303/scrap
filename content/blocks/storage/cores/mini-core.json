@@ -1,7 +1,4 @@
 {
-  "type": "CoreBlock",
-  "name": "Core: Mini Scrap",
-  "description": "Test core.",
   "size": 1,
   "researchCostMultiplier": 0.5,
   "health": 500,
