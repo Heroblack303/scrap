@@ -6,9 +6,14 @@ const miniCore = extend(CoreBlock, "mini-core", {
 canPlaceOn(tile, team, rotation){
         return true;
     },
+//can this core replace another one
+    canReplace(other){
+        if(other instanceof CoreBlock) return false;
+        return this.super$canReplace(other);
+    },
 //is it possible to break the core
     canBreak(tile){
-    	return true;
+    	return false;
     },
 //adding build time for the core
     setStats(){
