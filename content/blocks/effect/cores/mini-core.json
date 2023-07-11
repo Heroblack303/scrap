@@ -11,18 +11,6 @@
   ],
   "category": "effect",
   "research": "mini-cores",
-  "craftTime": 60,
-  "consumes": {
-    "items": {
-      "items": [
-        {
-          "item": "scrap",
-          "amount": 1
-        }
-      ]
-    }
-  },
-  "outputItem": { "item": "copper", "amount": 1},
   "unitType": "scrap-mini",
   "unitCapModifier": 2
 }
