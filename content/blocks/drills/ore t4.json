@@ -5,7 +5,7 @@
   "health": 1000,
   "size": 2,
   "requirements": [
-    { "item": "coal", "amount": 400},
+    { "item": "coal", "amount": 200},
     { "item": "titanium", "amount": 100}
   ],
   "research": "scrap-generator",

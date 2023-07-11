@@ -5,8 +5,8 @@
   "health": 500,
   "size": 2,
   "requirements": [
-    { "item": "copper", "amount": 150},
-    { "item": "lead", "amount": 150}
+    { "item": "copper", "amount": 100},
+    { "item": "lead", "amount": 100}
   ],
   "research": "scrap-generator",
   "hasPower": false,

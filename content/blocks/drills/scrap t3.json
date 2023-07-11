@@ -5,8 +5,9 @@
   "health": 400,
   "size": 1,
   "requirements": [
-    { "item": "copper", "amount": 100},
-    { "item": "lead", "amount": 100},
+    { "item": "scrap", "amount": 50},
+    { "item": "copper", "amount": 50},
+    { "item": "lead", "amount": 50},
     { "item": "coal", "amount": 50},
     { "item": "titanium", "amount": 50}
   ],
