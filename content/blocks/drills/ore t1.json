@@ -5,7 +5,7 @@
   "health": 250,
   "size": 2,
   "requirements": [
-    { "item": "scrap","amount": 150}
+    { "item": "scrap","amount": 100}
   ],
   "consumes": {
     "items": {
