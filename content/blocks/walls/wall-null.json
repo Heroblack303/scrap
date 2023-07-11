@@ -11,12 +11,13 @@
   "consumes": {
   },
   "requirements": [
-    { "item": "lead","amount": 99999},
-    { "item": "graphite","amount": 99999},
-    { "item": "titanium","amount": 99999},
-    { "item": "plastanium","amount": 99999},
-    { "item": "phase-fabric","amount": 99999},
-    { "item": "surge-alloy","amount": 99999}
+    { "item": "copper","amount": 10000},
+    { "item": "lead","amount": 10000},
+    { "item": "coal","amount": 10000},
+    { "item": "titanium","amount": 10000},
+    { "item": "thorium","amount": 10000},
+    { "item": "sand","amount": 10000},
+    { "item": "scrap","amount": 10000}
   ],
   "results": [
     {

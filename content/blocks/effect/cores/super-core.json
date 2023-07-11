@@ -1,0 +1,16 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Super Scrap",
+  "description": "Super core.",
+  "size": 3,
+  "researchCostMultiplier": 0.5,
+  "health": 2000,
+  "itemCapacity": 4000,
+  "requirements": [
+    { "item": "scrap","amount": 4000}
+  ],
+  "category": "effect",
+  "research": "super-cores",
+  "unitType": "alpha",
+  "unitCapModifier": 1
+}
