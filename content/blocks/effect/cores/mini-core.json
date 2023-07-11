@@ -6,11 +6,13 @@
   "researchCostMultiplier": 0.5,
   "health": 500,
   "itemCapacity": 1000,
+  "outputItem": { "item": "scrap", "amount": 1},
   "requirements": [
     { "item": "scrap","amount": 500}
   ],
   "category": "effect",
   "research": "mini-cores",
+  "craftTime": 60,
   "unitType": "scrap-mini",
   "unitCapModifier": 2
 }
