@@ -1,0 +1,16 @@
+{
+  "name": "Box",
+  "description": "Box.",
+  "type": "StorageBlock",
+  "size": 1,
+  "hasItems": true,
+  "health": 100,
+  "requirements": [
+    { "item": "scrap","amount": 100}
+  ],
+  "itemCapacity": 50,
+  "coreMerge": true,
+  "category": "effect",
+  "research": "box"
+
+}
