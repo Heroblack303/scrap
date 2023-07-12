@@ -1,0 +1,38 @@
+{
+  "type": "flying",
+  "name": "[green]Alpha",
+  "description": "Alpha.",
+  "speed": 2.7,
+  "research": "alpha",
+  "buildSpeed": 3.2,
+  "mineSpeed": 4,
+  "mineTier": 2,
+  "canAttack": false,
+  "armor": 3,
+  "coreUnitDock": true,
+  "health": 680,
+  "flying": true,
+  "itemCapacity": 75,
+  "hitSize": 4,
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "mineHardnessScaling": true,
+  "controller": "RepairAI",
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "repair-laser-weapon",
+      "x": 0,
+      "y": 5,
+      "reload": 5,
+      "rotate": false,
+      "shootSound": "lightning",
+      "bullet": {
+        "type": "LightningBulletType",
+        "lightningLength": 5,
+        "lightningDamage": 10,
+        "lightningColor": "84f491"
+      }
+    }
+  ]
+}

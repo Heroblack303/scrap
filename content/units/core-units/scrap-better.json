@@ -9,11 +9,9 @@
   "mineSpeed": 4,
   "mineTier": 1,
   "armor": 1,
-  
   "coreUnitDock": true,
-  
   "health": 40,
   "flying": true,
   "itemCapacity": 10,
-  "hitSize": 1
+  "hitSize": 2
 }
