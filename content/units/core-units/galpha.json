@@ -39,7 +39,7 @@
         "splashDamageRadius": 4,
         "homingRange": 80,
         "homingPower": 0.2,
-        "healPercent": 10,
+        "healPercent": 2,
         "collidesTeam": true,
         "hitEffect": {
             "type": "MultiEffect",
