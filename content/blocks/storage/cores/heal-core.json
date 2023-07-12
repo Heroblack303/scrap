@@ -4,7 +4,7 @@
   "description": "Heal core.",
   "size": 5,
   "researchCostMultiplier": 0.5,
-  "health": 6000,
+  "health": 8000,
   "itemCapacity": 13000,
   "requirements": [
     { "item": "copper","amount": 8000},

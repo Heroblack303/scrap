@@ -28,7 +28,7 @@
       "shootSound": "lasershoot",
       "bullet": {
         "type": "LaserBoltBulletType",
-        "speed": 10,
+        "speed": 6,
         "buildingDamageMultiplier": 0.01,
         "damage": 2,
         "pierce": true,
@@ -39,7 +39,7 @@
         "splashDamageRadius": 4,
         "homingRange": 80,
         "homingPower": 0.2,
-        "healPercent": 2,
+        "healPercent": 5,
         "collidesTeam": true,
         "hitEffect": {
             "type": "MultiEffect",
