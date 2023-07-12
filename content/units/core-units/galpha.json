@@ -28,7 +28,7 @@
       "shootSound": "lasershoot",
       "bullet": {
         "type": "LaserBoltBulletType",
-        "speed": 6,
+        "speed": 1,
         "buildingDamageMultiplier": 0.01,
         "damage": 2,
         "pierce": true,
