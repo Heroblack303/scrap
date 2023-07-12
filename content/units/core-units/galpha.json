@@ -37,8 +37,8 @@
         "mixColorFrom": "d4816b",
         "mixColorTo": "ffd37f",
         "splashDamageRadius": 4,
-        "homingRange": 170,
-        "homingPower": 0.18,
+        "homingRange": 80,
+        "homingPower": 0.2,
         "healPercent": 25,
         "collidesTeam": true,
         "hitEffect": {
@@ -50,14 +50,14 @@
                     "colorTo": "ffd37f",
                     "rotation": 3,
                     "sizeFrom": 0,
-                    "sizeTo": 4
+                    "sizeTo": 2
                 },
                 {
                     "type": "WaveEffect",
                     "colorFrom": "ffd37f",
                     "colorTo": "d4816b",
                     "rotation": 3,
-                    "sizeFrom": 4,
+                    "sizeFrom": 2,
                     "sizeTo": 0
                 }
             ]
