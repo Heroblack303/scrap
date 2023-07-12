@@ -13,5 +13,5 @@
   "health": 40,
   "flying": true,
   "itemCapacity": 10,
-  "hitSize": 2
+  "hitSize": 1
 }

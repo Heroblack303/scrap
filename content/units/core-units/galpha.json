@@ -4,39 +4,34 @@
   "description": "Alpha.",
   "speed": 4,
   "research": "alpha",
-  "buildSpeed": 2,
+  "buildSpeed": 1,
   "mineSpeed": 6,
   "mineTier": 2,
   "canAttack": false,
-  "armor": 3,
+  "armor": 10,
   "coreUnitDock": true,
   "health": 400,
   "flying": true,
-  "itemCapacity": 30,
-  "hitSize": 4,
+  "itemCapacity": 60,
+  "hitSize": 1,
   "drawBuildBeam": true,
   "mineHardnessScaling": true,
   "controller": "RepairAI",
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "building-weapon",
-      "shootSound": "laser",
+      "name": "repair-laser-weapon",
       "x": 0,
-      "y": -4,
-      "reload": 30,
-      "rotate": true,
-      "noAttack": true,
-      "mirror": false,
+      "y": 5,
+      "reload": 5,
+      "rotate": false,
+      "shootSound": "lightning",
       "bullet": {
-        "type": "LaserBulletType",
-        "damage": 5,
+        "type": "LightningBulletType",
+        "lightningLength": 5,
+        "lightningDamage": 10,
         "healPercent": 12,
-        "length": 70,
-        "colors": ["84f491", "ffffff", "62ae7f"]
-        "collidesTeam": true,
-        "collidesTiles": true,
-        "collidesAir": true
+        "lightningColor": "84f491"
       }
     }
   ]
