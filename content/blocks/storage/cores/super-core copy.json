@@ -1,5 +1,6 @@
 {
   "type": "CoreBlock",
+  "type": "MendProjector",
   "name": "Core: Heal",
   "description": "Heal core.",
   "size": 5,
