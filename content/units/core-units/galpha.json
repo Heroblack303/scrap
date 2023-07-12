@@ -25,13 +25,43 @@
       "y": 5,
       "reload": 5,
       "rotate": false,
-      "shootSound": "lightning",
+      "shootSound": "lasershoot",
       "bullet": {
-        "type": "LightningBulletType",
-        "lightningLength": 5,
-        "lightningDamage": 10,
-        "healPercent": 100,
-        "lightningColor": "84f491"
+        "type": "LaserBoltBulletType",
+        "speed": 6,
+        "buildingDamageMultiplier": 0.01,
+        "damage": 2,
+        "pierce": true,
+        "pierceCap": 10,
+        "splashDamage": 6,
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
+        "splashDamageRadius": 4,
+        "homingRange": 170,
+        "homingPower": 0.18,
+        "healPercent": 25,
+        "collidesTeam": true,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 4
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
+                    "rotation": 3,
+                    "sizeFrom": 4,
+                    "sizeTo": 0
+                }
+            ]
+        }
       }
     }
   ]
