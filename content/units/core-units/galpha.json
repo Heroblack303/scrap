@@ -29,11 +29,11 @@
       "bullet": {
         "type": "LaserBoltBulletType",
         "speed": 6,
-        "buildingDamageMultiplier": 0.01,
+        "buildingDamageMultiplier": 50.0,
         "damage": 2,
         "pierce": true,
         "pierceCap": 10,
-        "splashDamage": 6,
+        "splashDamage": 4,
         "mixColorFrom": "d4816b",
         "mixColorTo": "ffd37f",
         "splashDamageRadius": 4,
