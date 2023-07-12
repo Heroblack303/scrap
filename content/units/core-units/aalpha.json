@@ -1,0 +1,68 @@
+{
+  "type": "flying",
+  "name": "[orange]Alpha",
+  "description": "Alpha.",
+  "speed": 4,
+  "research": "alpha",
+  "buildSpeed": 1,
+  "mineSpeed": 6,
+  "mineTier": 2,
+  "canAttack": false,
+  "armor": 10,
+  "coreUnitDock": true,
+  "health": 400,
+  "flying": true,
+  "itemCapacity": 60,
+  "hitSize": 1,
+  "drawBuildBeam": true,
+  "mineHardnessScaling": true,
+  "controller": "RepairAI",
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "repair-laser-weapon",
+      "x": 0,
+      "y": 5,
+      "reload": 5,
+      "rotate": false,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 25,
+        "buildingDamageMultiplier": 0.01,
+        "damage": 10,
+        "pierce": true,
+        "pierceCap": 10,
+        "splashDamage": 6,
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
+        "splashDamageRadius": 4,
+        "homingRange": 80,
+        "homingPower": 0.2,
+        "healPercent": 0,
+        "collidesTeam": true,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 2
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
+                    "rotation": 3,
+                    "sizeFrom": 2,
+                    "sizeTo": 0
+                }
+            ]
+        }
+      }
+    }
+  ]
+}
