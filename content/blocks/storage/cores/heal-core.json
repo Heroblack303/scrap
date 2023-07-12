@@ -1,0 +1,20 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Heal",
+  "description": "Heal core.",
+  "size": 5,
+  "researchCostMultiplier": 0.5,
+  "health": 6000,
+  "itemCapacity": 13000,
+  "requirements": [
+    { "item": "copper","amount": 8000},
+    { "item": "lead","amount": 8000},
+    { "item": "silicon","amount": 4000},
+    { "item": "titanium","amount": 4000},
+    { "item": "phase-fabric","amount": 1000}
+  ],
+  "category": "effect",
+  "research": "heal-cores",
+  "unitType": "galpha",
+  "unitCapModifier": 32
+}
