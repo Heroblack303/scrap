@@ -13,7 +13,7 @@
   "coreUnitDock": true,
   
   "health": 10,
-  "flying": true,
+  "flying": false,
   "itemCapacity": 5,
   "hitSize": 1
 }
