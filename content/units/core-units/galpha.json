@@ -29,7 +29,7 @@
       "bullet": {
         "type": "LaserBoltBulletType",
         "speed": 6,
-        "buildingDamageMultiplier": 0.5,
+        "buildingDamageMultiplier": 0.1,
         "damage": 2,
         "pierce": true,
         "pierceCap": 10,
