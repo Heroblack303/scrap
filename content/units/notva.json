@@ -20,48 +20,31 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "notva-weapon-1",
-      "x": 5,
-      "y": 5,
-      "reload": 5,
-      "rotate": false,
-      "shootSound": "lasershoot",
+      "name": "notva-weapon-2",
+      "top": false,
+      "y": 1,
+      "x": 21.5,
+      "reload": 9,
+      "shootY": 11,
+      "recoil": 5,
+      "shake": 2,
+      "ejectEffect": "casing4",
+      "shootSound": "bang",
       "bullet": {
-        "type": "LaserBoltBulletType",
-        "speed": 6,
-        "buildingDamageMultiplier": 0.5,
-        "damage": 1,
+        "type": "ShrapnelBulletType",
+        "damage": 240,
+        "toColor": "6d7dff",
+        "fromColor": "5461c5",
         "pierce": true,
-        "pierceCap": 10,
-        "splashDamage": 2,
-        "mixColorFrom": "d4816b",
-        "mixColorTo": "ffd37f",
-        "splashDamageRadius": 2,
-        "homingRange": 80,
-        "homingPower": 0.2,
-        "healPercent": 5,
-        "collidesTeam": true,
-        "hitEffect": {
-            "type": "MultiEffect",
-            "effects": [
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "d4816b",
-                    "colorTo": "ffd37f",
-                    "rotation": 3,
-                    "sizeFrom": 0,
-                    "sizeTo": 2
-                },
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "ffd37f",
-                    "colorTo": "d4816b",
-                    "rotation": 3,
-                    "sizeFrom": 2,
-                    "sizeTo": 0
-                }
-            ]
-        }
+        "pierceCap": 13,
+        "hitEffect": "blastExplosion",
+        "shootEffect": "shootBig",
+        "length": 280,
+        "width": 18,
+        "serrationLenScl": 3,
+        "serrationSpaceOffset": 50,
+        "serrations": 40,
+        "serrationWidth": 4
       }
     },
     {
