@@ -10,7 +10,7 @@
   "canAttack": false,
   "armor": 10,
   "coreUnitDock": true,
-  "health": 400,
+  "health": 200,
   "flying": false,
   "itemCapacity": 60,
   "hitSize": 1,
