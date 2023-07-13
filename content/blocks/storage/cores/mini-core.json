@@ -10,7 +10,7 @@
   "research": {
     "parent": "scrap",
     "requirements": [
-      "thorium/500"
+      "scrap/500"
     ]
   },
   "unitType": "scrap-mini",

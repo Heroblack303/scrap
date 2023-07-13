@@ -10,7 +10,12 @@
     { "item": "scrap","amount": 2000}
   ],
   "category": "effect",
-  "research": "super-cores",
+  "research": {
+    "parent": "better-core",
+    "requirements": [
+      "scrap/2000"
+    ]
+  },
   "unitType": "alpha",
   "unitCapModifier": 8
 }

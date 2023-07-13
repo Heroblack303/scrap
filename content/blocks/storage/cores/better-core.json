@@ -10,7 +10,12 @@
     { "item": "scrap","amount": 1000}
   ],
   "category": "effect",
-  "research": "better-cores",
+  "research": {
+    "parent": "mini-core",
+    "requirements": [
+      "scrap/1000"
+    ]
+  },
   "unitType": "scrap-better",
   "unitCapModifier": 4
 }

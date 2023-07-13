@@ -3,6 +3,7 @@
   "name": "[green]Notva",
   "description": "Notva.",
   "speed": 1.0,
+  "rotateSpeed" : 3,
   "research": "notva",
   "buildSpeed": 1,
   "mineSpeed": 6,
