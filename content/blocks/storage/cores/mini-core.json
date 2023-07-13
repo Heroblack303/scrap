@@ -7,7 +7,12 @@
     { "item": "scrap","amount": 500}
   ],
   "category": "effect",
-  "research": "mini-cores",
+  "research": {
+    "parent": "scrap",
+    "requirements": [
+      "thorium/500"
+    ]
+  },
   "unitType": "scrap-mini",
   "unitCapModifier": 2
 }
