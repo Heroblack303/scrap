@@ -10,7 +10,6 @@
     {
       "unit": "notva",
       "requirements": [
-        "lead/30",
         "silicon/30",
         "metaglass/30",
         "titanium/30"
@@ -19,7 +18,7 @@
     }
   ],
   "requirements": [
-    "copper/100",
+    "copper/150",
     "lead/150",
     "silicon/50",
     "metaglass/50",
