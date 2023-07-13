@@ -21,96 +21,49 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "notva-weapon-1",
-      "x": 0,
-      "y": 0,
-      "shootX": 0,
-      "shootY": 0,
-      "reload": 18,
-      "rotate": false,
+      "name": "external-weapon",
+      "reload": 27,
+      "x": 4,
+      "y": 2,
+      "top": false,
       "shootSound": "lasershoot",
+      "ejectEffect": "casing1",
       "bullet": {
-        "type": "LaserBoltBulletType",
-        "speed": 8,
-        "buildingDamageMultiplier": 0.5,
-        "damage": 8,
-        "pierce": true,
-        "pierceCap": 10,
-        "splashDamage": 8,
-        "mixColorFrom": "d4816b",
-        "mixColorTo": "ffd37f",
-        "splashDamageRadius": 8,
-        "homingRange": 80,
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 16,
+        "lifetime": 60,
         "homingPower": 0.2,
-        "healPercent": 0,
-        "collidesTeam": true,
+        "weaveMag": 4,
+        "weaveScale": 4,
+        "shootEffect": "shootSmall",
+        "frontColor": "BFFFEF",
+        "hitSound": "none",
+        "width": 7,
+        "height": 9,
+        "lightColor": "C7D7E0",
+        "trailColor": "90C3B7",
+        "backColor": "90C3B7",
+        "lightRadius": 40,
+        "lightOpacity": 0.7,
+        "trailWidth": 2.2,
+        "trailLength": 18,
+        "trailChance": -1,
+        "despawnEffect": "none",
+        "despawnHit": true,
         "hitEffect": {
-            "type": "MultiEffect",
-            "effects": [
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "d4816b",
-                    "colorTo": "ffd37f",
-                    "rotation": 3,
-                    "sizeFrom": 0,
-                    "sizeTo": 2
-                },
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "ffd37f",
-                    "colorTo": "d4816b",
-                    "rotation": 3,
-                    "sizeFrom": 2,
-                    "sizeTo": 0
-                }
-            ]
-        }
-      }
-    },
-    {
-      "name": "notva-weapon-2",
-      "x": 0,
-      "y": 1,
-      "shootX": 0,
-      "shootY": 1,
-      "reload": 9,
-      "rotate": false,
-      "shootSound": "lasershoot",
-      "bullet": {
-        "type": "LaserBoltBulletType",
-        "speed": 4,
-        "buildingDamageMultiplier": 0.5,
-        "damage": 2,
-        "pierce": true,
-        "pierceCap": 10,
-        "splashDamage": 2,
-        "mixColorFrom": "d4816b",
-        "mixColorTo": "ffd37f",
-        "splashDamageRadius": 2,
-        "homingRange": 80,
-        "homingPower": 0.2,
-        "healPercent": 10,
-        "collidesTeam": true,
-        "hitEffect": {
-            "type": "MultiEffect",
-            "effects": [
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "d4816b",
-                    "colorTo": "ffd37f",
-                    "rotation": 3,
-                    "sizeFrom": 0,
-                    "sizeTo": 2
-                },
-                {
-                    "type": "WaveEffect",
-                    "colorFrom": "ffd37f",
-                    "colorTo": "d4816b",
-                    "rotation": 3,
-                    "sizeFrom": 2,
-                    "sizeTo": 0
-                }
-            ]
+          "type": "ExplosionEffect",
+          "lifetime": 20,
+          "waveStroke": 1.2,
+          "waveColor": "90C3B7",
+          "sparkColor": "90C3B7",
+          "waveRad": 6,
+          "smokeSize": 0,
+          "smokeSizeBase": 0,
+          "sparks": 4,
+          "sparkRad": 35,
+          "sparkLen": 2,
+          "sparkStroke": 1.0
         }
       }
     }

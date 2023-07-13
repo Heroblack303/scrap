@@ -31,7 +31,7 @@
       "shootSound": "lasershoot",
       "bullet": {
         "type": "LaserBoltBulletType",
-        "speed": 8,
+        "speed": 6,
         "buildingDamageMultiplier": 0.5,
         "damage": 8,
         "pierce": true,
@@ -78,7 +78,7 @@
       "shootSound": "lasershoot",
       "bullet": {
         "type": "LaserBoltBulletType",
-        "speed": 4,
+        "speed": 3,
         "buildingDamageMultiplier": 0.5,
         "damage": 2,
         "pierce": true,
