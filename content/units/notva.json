@@ -20,7 +20,52 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "repair-laser-weapon",
+      "name": "notva-weapon-1",
+      "x": 0,
+      "y": 5,
+      "reload": 5,
+      "rotate": false,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 6,
+        "buildingDamageMultiplier": 0.5,
+        "damage": 1,
+        "pierce": true,
+        "pierceCap": 10,
+        "splashDamage": 2,
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
+        "splashDamageRadius": 2,
+        "homingRange": 80,
+        "homingPower": 0.2,
+        "healPercent": 5,
+        "collidesTeam": true,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 2
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
+                    "rotation": 3,
+                    "sizeFrom": 2,
+                    "sizeTo": 0
+                }
+            ]
+        }
+      }
+    },
+    {
+      "name": "notva-weapon-2",
       "x": 0,
       "y": 5,
       "reload": 5,
