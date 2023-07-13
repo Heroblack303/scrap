@@ -1,10 +1,10 @@
 {
   "type": "mech",
-  "name": "[green]Notva",
-  "description": "Notva.",
+  "name": "[green]External",
+  "description": "External.",
   "speed": 1.0,
   "rotateSpeed" : 3,
-  "research": "notva",
+  "research": "external",
   "buildSpeed": 1,
   "mineSpeed": 6,
   "mineTier": 3,
@@ -37,8 +37,8 @@
         "pierce": true,
         "pierceCap": 10,
         "splashDamage": 8,
-        "mixColorFrom": "BFFFEF",
-        "mixColorTo": "C7D7E0",
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
         "splashDamageRadius": 8,
         "homingRange": 80,
         "homingPower": 0.2,
@@ -49,16 +49,16 @@
             "effects": [
                 {
                     "type": "WaveEffect",
-                    "colorFrom": "BFFFEF",
-                    "colorTo": "C7D7E0",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
                     "rotation": 3,
                     "sizeFrom": 0,
                     "sizeTo": 2
                 },
                 {
                     "type": "WaveEffect",
-                    "colorFrom": "BFFFEF",
-                    "colorTo": "C7D7E0",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
                     "rotation": 3,
                     "sizeFrom": 2,
                     "sizeTo": 0
@@ -84,8 +84,8 @@
         "pierce": true,
         "pierceCap": 10,
         "splashDamage": 2,
-        "mixColorFrom": "90C3B7",
-        "mixColorTo": "C7D7E0",
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
         "splashDamageRadius": 2,
         "homingRange": 80,
         "homingPower": 0.2,
@@ -96,16 +96,16 @@
             "effects": [
                 {
                     "type": "WaveEffect",
-                    "colorFrom": "90C3B7",
-                    "colorTo": "C7D7E0",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
                     "rotation": 3,
                     "sizeFrom": 0,
                     "sizeTo": 2
                 },
                 {
                     "type": "WaveEffect",
-                    "colorFrom": "90C3B7",
-                    "colorTo": "C7D7E0",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
                     "rotation": 3,
                     "sizeFrom": 2,
                     "sizeTo": 0
