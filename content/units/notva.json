@@ -22,7 +22,7 @@
     {
       "name": "notva-weapon-1",
       "top": false,
-      "y": 5,
+      "y": 0,
       "x": 5,
       "reload": 9,
       "shootY": 11,
@@ -49,7 +49,7 @@
     },
     {
       "name": "notva-weapon-2",
-      "x": -5,
+      "x": -10,
       "y": 5,
       "reload": 5,
       "rotate": false,
