@@ -21,7 +21,7 @@
   "weapons": [
     {
       "name": "notva-weapon-1",
-      "x": -1,
+      "x": -2,
       "y": 0.5,
       "reload": 5,
       "rotate": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "notva-weapon-2",
-      "x": 1,
+      "x": 2,
       "y": -0.5,
       "reload": 5,
       "rotate": false,
