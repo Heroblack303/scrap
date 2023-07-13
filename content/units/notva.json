@@ -21,9 +21,9 @@
   "weapons": [
     {
       "name": "notva-weapon-1",
-      "x": 1,
-      "y": 0.5,
-      "reload": 5,
+      "x": 0,
+      "y": 0,
+      "reload": 9,
       "rotate": false,
       "shootSound": "lasershoot",
       "bullet": {
@@ -66,9 +66,9 @@
     },
     {
       "name": "notva-weapon-2",
-      "x": -1,
-      "y": -0.5,
-      "reload": 5,
+      "x": 0,
+      "y": 1,
+      "reload": 9,
       "rotate": false,
       "shootSound": "lasershoot",
       "bullet": {
