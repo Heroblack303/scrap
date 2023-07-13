@@ -22,8 +22,8 @@
     {
       "name": "notva-weapon-2",
       "top": false,
-      "y": 1,
-      "x": 21.5,
+      "y": 5,
+      "x": 5,
       "reload": 9,
       "shootY": 11,
       "recoil": 5,
@@ -50,7 +50,7 @@
     {
       "name": "notva-weapon-2",
       "x": -5,
-      "y": 31.5,
+      "y": 5,
       "reload": 5,
       "rotate": false,
       "shootSound": "lasershoot",
