@@ -10,9 +10,9 @@
     {
       "unit": "notva",
       "requirements": [
-        "silicon/30",
-        "metaglass/30",
-        "titanium/30"
+        "silicon/40",
+        "metaglass/40",
+        "titanium/20"
       ],
       "time": 900
     }
