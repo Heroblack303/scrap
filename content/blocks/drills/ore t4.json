@@ -8,7 +8,7 @@
     { "item": "coal", "amount": 200},
     { "item": "titanium", "amount": 100}
   ],
-  "research": "scrap-generator",
+  "research": "ore t3",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 30,

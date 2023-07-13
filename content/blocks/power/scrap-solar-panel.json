@@ -11,5 +11,5 @@
     { "item": "scrap","amount": 200}
   ],
   "category": "power",
-  "research": "scrap-panel"
+  "research": "mini-core"
 }

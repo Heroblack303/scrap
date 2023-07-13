@@ -1,0 +1,31 @@
+{
+    "type": "Supersoldier Factory 2",
+    "name": "Supersoldier Factory 2",
+    "description": "Supersoldier Factory 2.",
+    "health": 600,
+    "size": 3,
+    "constructTime": 1800,
+    "upgrades": [
+        ["notva", "external"]
+    ],
+    "consumes": {
+        "power": 1.0,
+        "items": {
+            "items": [
+              "titanium/80",
+              "plastanium/40"
+            ]
+        }
+    },
+    "requirements": [
+      "copper/300",
+      "lead/300",
+      "silicon/150",
+      "metaglass/150",
+      "titanium/100",
+      "plastanium/50"
+
+    ],
+    "category": "units",
+    "research": "supersoldier-factory"
+ }

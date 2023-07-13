@@ -9,7 +9,7 @@
     { "item": "lead", "amount": 100},
     { "item": "coal", "amount": 50}
   ],
-  "research": "scrap-generator",
+  "research": "ore t2",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 30,

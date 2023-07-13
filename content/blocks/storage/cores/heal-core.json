@@ -14,7 +14,7 @@
     { "item": "phase-fabric","amount": 1000}
   ],
   "category": "effect",
-  "research": "heal-cores",
+  "research": "super-core",
   "unitType": "galpha",
   "unitCapModifier": 32
 }

@@ -7,7 +7,7 @@
   "requirements": [
     { "item": "scrap", "amount": 0}
   ],
-  "research": "scrap-generator",
+  "research": "mini-core",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 600,

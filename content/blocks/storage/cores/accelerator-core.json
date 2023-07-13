@@ -15,7 +15,7 @@
     { "item": "surge-alloy","amount": 1000}
   ],
   "category": "effect",
-  "research": "accelerator-cores",
+  "research": "super-core",
   "unitType": "aalpha",
   "unitCapModifier": 32
 }

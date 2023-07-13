@@ -9,7 +9,7 @@
     { "item": "copper", "amount": 25},
     { "item": "lead", "amount": 25}
   ],
-  "research": "scrap-generator",
+  "research": "scrap t1",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 300,

@@ -17,7 +17,7 @@
       ]
     }
   },
-  "research": "ore-t1-generator",
+  "research": "scrap t1",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 3,

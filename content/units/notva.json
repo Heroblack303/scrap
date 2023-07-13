@@ -4,7 +4,7 @@
   "description": "Notva.",
   "speed": 1.0,
   "rotateSpeed" : 3,
-  "research": "notva",
+  "research": "supersoldier-factory",
   "buildSpeed": 1,
   "mineSpeed": 6,
   "mineTier": 3,

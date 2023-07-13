@@ -2,9 +2,10 @@
   "type": "unitFactory",
   "name": "Supersoldier Factory",
   "description": "Creates small and light units which may be upgraded using Reassembly Chambers.",
+  "health": 600,
   "size": 3,
   "consumes": {
-    "power": 1.2
+    "power": 0.5
   },
   "plans": [
     {
@@ -25,5 +26,5 @@
     "titanium/25"
   ],
   "category": "units",
-  "research": "supersoldier-factories"
+  "research": "super-core"
 }
