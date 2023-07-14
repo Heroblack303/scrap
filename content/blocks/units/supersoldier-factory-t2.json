@@ -1,13 +1,12 @@
 {
-    "type": "Supersoldier Factory 2",
+    "type": "Reconstructor",
     "name": "Supersoldier Factory 2",
     "description": "Supersoldier Factory 2.",
     "health": 600,
     "size": 3,
     "constructTime": 1800,
     "upgrades": [
-      ["notva", "external"],
-      ["dagger", "pulsar"]
+      ["notva", "external"]
       ],
     "consumes": {
         "power": 1.0,
