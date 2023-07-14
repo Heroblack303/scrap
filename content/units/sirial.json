@@ -22,67 +22,35 @@
   "weapons": [
     {
       "name": "sirial-weapon",
-      "x": 0,
-      "y": 0,
+      "shootCone": 300,
       "mirror": true,
       "alternate": false,
       "top": true,
-      "display": false,
+      "baseRotation": -21,
+      "x": 0,
+      "y": 0,
       "rotate": false,
-      "baseRotation": 180,
-      "shootY": 10,
-      "shootSound": "none",
-      "alwaysShooting": true,
-      "alwaysContinuous": true,
-      "continuous": true,
-      "parentizeEffects": true,
+      "layerOffset": -1,
+      "reload": 230,
+      "recoil": 3.5,
+      "parts": [
+       {
+      "type": "RegionPart",
+      "suffix": "-missile",
+      "colorTo": "ffffff00",
+      "color": "ffffff",
+      "layerOffset": -1,
+      "under": true,
+      "outlineLayerOffset": 1,
+      "moveY": -5,
+      "progress": "reload"
+      }
+      ],
+      "shootSound": "missileLaunch",
       "bullet": {
-      "type": "ContinuousFlameBulletType",
-      "colors": ["9681fb50", "9681fb", "bf92f9", "ffffff"],
-      "damage": 4,
-      "layer": 110,
-      "intervalBullets": 2,
-      "intervalRandomSpread": 1,
-      "bulletInterval": 2.7,
-      "intervalBullet": {
-      "type": "BulletType",
-      "despawnHit": true,
-      "despawnEffect": "none",
-      "shootEffect": "none",
-      "hitEffect": {
-      "type":"multiEffect",
-      "followParent": true,
-      "rotWithParent": true,
-      "effects":[
-      {
-      "type": "ParticleEffect",
-      "followParent": true,
-      "rotWithParent": true,
-      "line": true,
-      "layer": 108,
-      "particles": 1,
-      "lifetime": 31,
-      "interp": "circleOut",
-      "length": 35,
-      "baseLength": 8,
-      "cone": 20,
-      "strokeFrom": 2,
-      "lenFrom": 10,
-      "lenTo": 0,
-      "colorFrom": "9681fb",
-      "colorTo": "9681fb"
+      "type": "basicBulletType",
+      "spawnUnit": "exogenesis-big-thorium-missile"
       }
-      ]
-      },
-      "lifetime": 0,
-      "instantDisappear": true
-      },
-      "drawFlare": false,
-      "collides": false,
-      "width": 4,
-      "divisions": 20,
-      "length": 27
       }
-    }
   ]
 }
