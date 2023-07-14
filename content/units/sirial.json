@@ -21,35 +21,116 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "sirial-weapon",
-      "shootCone": 300,
-      "mirror": true,
-      "alternate": false,
+      "name": "nsirial-weapon",
       "top": true,
-      "baseRotation": -21,
-      "x": 0,
+      "mirror": false,
+      "layerOffset": -0.0001,
       "y": 0,
+      "x": 0,
+      "cooldownTime": 80,
       "rotate": false,
-      "layerOffset": -1,
-      "reload": 230,
-      "recoil": 3.5,
+      "shootY": 0,
+      "shootX": 0,
+      "reload": 30,
+      "recoils": 4,
+      "recoil": 0,
+      "shake": 1.5,
+      "ejectEffect": "none",
+      "shootSound": "mediumCannon",
       "parts": [
-       {
+      {
       "type": "RegionPart",
-      "suffix": "-missile",
-      "colorTo": "ffffff00",
-      "color": "ffffff",
-      "layerOffset": -1,
+      "suffix": "-barrel-1",
       "under": true,
-      "outlineLayerOffset": 1,
-      "moveY": -5,
-      "progress": "reload"
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 1,
+      "progress": "recoil",
+      "moveY": -3.5
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-2",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 0,
+      "progress": "recoil",
+      "moveY": -3.5
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-3",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 3,
+      "progress": "recoil",
+      "moveY": -3.5
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-4",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 2,
+      "progress": "recoil",
+      "moveY": -3.5
       }
       ],
-      "shootSound": "missileLaunch",
-      "bullet": {
+      "shoot": {
+      "type": "ShootMulti",
+      "source": {
+      "type": "ShootBarrel",
+      "barrels": [
+       42, 65, 0,
+      -42, 65, 0,
+       24, 64, 0,
+      -24, 64, 0
+      ]
+      },
+      "dest": [
+      {
+      "type": "ShootHelix",
+      "scl": 2.7, 
+      "mag": 2,
+      "shots" : 2
+      }
+      ]
+      },
+      "bullet": { 
       "type": "basicBulletType",
-      "spawnUnit": "exogenesis-big-thorium-missile"
+      "sprite": "missile-large",
+      "hitEffect": {
+      "type": "MultiEffect",
+      "effects": ["sapExplosion", "circleColorSpark"]
+      },
+      "intervalBullets": 3,
+      "intervalRandomSpread": 50,
+      "intervalBullet": {
+      "type": "LightningBulletType",
+      "lightningColor": "a393feff",
+      "buildingDamageMultiplier": 0.8,
+      "damage": 78,
+      "lightningLength": 8
+      },
+      "hitColor": "9681fb",
+      "lifetime": 40,
+      "speed": 13.5,
+      "status": "sapped",
+      "statusDuration": 60,
+      "width": 15,
+      "height": 25,
+      "despawnHit": true,
+      "shootEffect": {
+      "type": "MultiEffect",
+      "effects": ["explosion", "colorSparkBig"]
+      },
+      "shrinkY": 0,
+      "shrinkX": 0,
+      "damage": 120,
+      "trailLength": 10,
+      "trailWidth": 4.5,
+      "trailColor": "a393feff",
+      "backColor": "a393feff",
+      "frontColor": "FFffffFF"
       }
       }
   ]
