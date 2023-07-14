@@ -2,7 +2,7 @@
   "type": "mech",
   "name": "[green]External",
   "description": "External.",
-  "speed": 1.0,
+  "speed": 0.8,
   "rotateSpeed" : 3,
   "research": "supersoldier-factory-2",
   "buildSpeed": 1.1,
@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "external-weapon",
-      "reload": 27,
+      "reload": 18,
       "x": 0,
       "y": 0,
       "top": false,
@@ -30,8 +30,8 @@
       "ejectEffect": "casing1",
       "bullet": {
         "type": "MissileBulletType",
-        "speed": 3,
-        "damage": 16,
+        "speed": 6,
+        "damage": 20,
         "lifetime": 60,
         "homingPower": 0.2,
         "weaveMag": 4,
