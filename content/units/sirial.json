@@ -21,7 +21,7 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "nsirial-weapon",
+      "name": "sirial-weapon",
       "top": true,
       "mirror": false,
       "layerOffset": -0.0001,
