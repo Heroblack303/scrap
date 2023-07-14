@@ -45,7 +45,7 @@
       "outlineLayerOffset": -0.001,
       "recoilIndex": 1,
       "progress": "recoil",
-      "moveY": -3.5
+      "moveY": 0
       },
       {
       "type": "RegionPart",
@@ -54,7 +54,7 @@
       "outlineLayerOffset": -0.001,
       "recoilIndex": 0,
       "progress": "recoil",
-      "moveY": -3.5
+      "moveY": 0
       },
       {
       "type": "RegionPart",
@@ -63,7 +63,7 @@
       "outlineLayerOffset": -0.001,
       "recoilIndex": 3,
       "progress": "recoil",
-      "moveY": -3.5
+      "moveY": 0
       },
       {
       "type": "RegionPart",
@@ -72,7 +72,7 @@
       "outlineLayerOffset": -0.001,
       "recoilIndex": 2,
       "progress": "recoil",
-      "moveY": -3.5
+      "moveY": 0
       }
       ],
       "shoot": {
