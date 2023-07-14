@@ -68,9 +68,9 @@
       },
       "bullet": { 
       "type": "basicBulletType",
-      "sprite": "missile-large",
       "hitEffect": {
-      "type": "MultiEffect"
+      "type": "MultiEffect",
+      "effects": ["sapExplosion", "circleColorSpark"]
       },
       "intervalBullets": 3,
       "intervalRandomSpread": 25,
@@ -91,7 +91,8 @@
       "height": 25,
       "despawnHit": true,
       "shootEffect": {
-      "type": "MultiEffect"
+      "type": "MultiEffect",
+      "effects": ["explosion", "colorSparkBig"]
       },
       "shrinkY": 0,
       "shrinkX": 0,
