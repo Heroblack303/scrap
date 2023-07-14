@@ -61,6 +61,7 @@
       "buildingDamageMultiplier": 0.5,
       "damage": 35,
       "healPercent": 5,
+      "collidesTeam": true,
       "lightningLength": 4
       },
       "hitColor": "C7D7E0",

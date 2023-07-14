@@ -35,6 +35,7 @@
         "lifetime": 60,
         "homingPower": 0.2,
         "healPercent": 5,
+        "collidesTeam": true,
         "weaveMag": 4,
         "weaveScale": 4,
         "shootEffect": "shootSmall",
