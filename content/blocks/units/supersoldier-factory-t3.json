@@ -14,7 +14,7 @@
             "items": [
               "titanium/160",
               "plastanium/80",
-              "phase-fabricr/40"
+              "phase-fabric/40"
             ]
         }
     },
@@ -24,7 +24,7 @@
       "metaglass/300",
       "titanium/150",
       "plastanium/100",
-      "phase-fabricr/50"
+      "phase-fabric/50"
     ],
     "category": "units",
     "research": "supersoldier-factory-t2"
