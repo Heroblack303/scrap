@@ -4,7 +4,7 @@
   "description": "External.",
   "speed": 0.8,
   "rotateSpeed" : 3,
-  "research": "supersoldier-factory-2",
+  "research": "supersoldier-factory-t2",
   "buildSpeed": 1.1,
   "mineSpeed": 6,
   "mineTier": 3,

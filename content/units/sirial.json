@@ -1,0 +1,88 @@
+{
+  "type": "mech",
+  "name": "[green]Sirial",
+  "description": "Sirial.",
+  "speed": 0.8,
+  "rotateSpeed" : 3,
+  "research": "supersoldier-factory-2",
+  "buildSpeed": 1.1,
+  "mineSpeed": 6,
+  "mineTier": 3,
+  "canAttack": false,
+  "armor": 10,
+  "coreUnitDock": true,
+  "health": 200,
+  "flying": false,
+  "itemCapacity": 50,
+  "hitSize": 1.5,
+  "drawBuildBeam": true,
+  "mineHardnessScaling": true,
+  "controller": "RepairAI",
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "sirial-weapon",
+      "x": 0,
+      "y": 0,
+      "mirror": true,
+      "alternate": false,
+      "top": true,
+      "display": false,
+      "rotate": false,
+      "baseRotation": 180,
+      "shootY": 10,
+      "shootSound": "none",
+      "alwaysShooting": true,
+      "alwaysContinuous": true,
+      "continuous": true,
+      "parentizeEffects": true,
+      "bullet": {
+      "type": "ContinuousFlameBulletType",
+      "colors": ["9681fb50", "9681fb", "bf92f9", "ffffff"],
+      "damage": 4,
+      "layer": 110,
+      "intervalBullets": 2,
+      "intervalRandomSpread": 1,
+      "bulletInterval": 2.7,
+      "intervalBullet": {
+      "type": "BulletType",
+      "despawnHit": true,
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "hitEffect": {
+      "type":"multiEffect",
+      "followParent": true,
+      "rotWithParent": true,
+      "effects":[
+      {
+      "type": "ParticleEffect",
+      "followParent": true,
+      "rotWithParent": true,
+      "line": true,
+      "layer": 108,
+      "particles": 1,
+      "lifetime": 31,
+      "interp": "circleOut",
+      "length": 35,
+      "baseLength": 8,
+      "cone": 20,
+      "strokeFrom": 2,
+      "lenFrom": 10,
+      "lenTo": 0,
+      "colorFrom": "9681fb",
+      "colorTo": "9681fb"
+      }
+      ]
+      },
+      "lifetime": 0,
+      "instantDisappear": true
+      },
+      "drawFlare": false,
+      "collides": false,
+      "width": 4,
+      "divisions": 20,
+      "length": 27
+      }
+    }
+  ]
+}
