@@ -28,6 +28,26 @@
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
+      "parts": [
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-1",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 1,
+      "progress": "recoil",
+      "moveY": 0
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-2",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 0,
+      "progress": "recoil",
+      "moveY": 0
+      }
+      ],
       "bullet": { 
       "type": "basicBulletType",
       "hitEffect": {
