@@ -22,19 +22,10 @@
   "weapons": [
     {
       "name": "sirial-weapon",
-      "top": true,
-      "mirror": false,
-      "layerOffset": -0.0001,
-      "y": 0,
+      "reload": 18,
       "x": 0,
-      "cooldownTime": 80,
-      "rotate": false,
-      "shootY": 0,
-      "shootX": 0,
-      "reload": 30,
-      "recoils": 4,
-      "recoil": 0,
-      "shake": 1.5,
+      "y": 0,
+      "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
       "parts": [
