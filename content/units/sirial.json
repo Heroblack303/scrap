@@ -13,8 +13,8 @@
   "coreUnitDock": true,
   "health": 200,
   "flying": false,
-  "itemCapacity": 50,
-  "hitSize": 1.5,
+  "itemCapacity": 100,
+  "hitSize": 2,
   "drawBuildBeam": true,
   "mineHardnessScaling": true,
   "controller": "RepairAI",
@@ -53,14 +53,14 @@
       "source": {
       "type": "ShootBarrel",
       "barrels": [
-       0, 0, 0,
-       0, 0, 0
+       1, 1, 0,
+       1, 1, 0
       ]
       },
       "dest": [
       {
       "type": "ShootHelix",
-      "scl": 2.7, 
+      "scl": 2.5, 
       "mag": 2,
       "shots" : 2
       }
@@ -77,14 +77,15 @@
       "intervalRandomSpread": 50,
       "intervalBullet": {
       "type": "LightningBulletType",
-      "lightningColor": "a393feff",
+      "lightningColor": "90C3B7",
       "buildingDamageMultiplier": 0.8,
-      "damage": 78,
+      "damage": 40,
+      "healPercent": 5,
       "lightningLength": 8
       },
-      "hitColor": "9681fb",
+      "hitColor": "C7D7E0",
       "lifetime": 40,
-      "speed": 13.5,
+      "speed": 9,
       "status": "sapped",
       "statusDuration": 60,
       "width": 15,
@@ -96,12 +97,12 @@
       },
       "shrinkY": 0,
       "shrinkX": 0,
-      "damage": 120,
-      "trailLength": 10,
-      "trailWidth": 4.5,
-      "trailColor": "a393feff",
-      "backColor": "a393feff",
-      "frontColor": "FFffffFF"
+      "damage": 80,
+      "trailLength": 8,
+      "trailWidth": 4.0,
+      "trailColor": "90C3B7",
+      "backColor": "90C3B7",
+      "frontColor": "BFFFEF"
       }
       }
   ]
