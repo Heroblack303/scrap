@@ -55,24 +55,6 @@
       "recoilIndex": 0,
       "progress": "recoil",
       "moveY": 0
-      },
-      {
-      "type": "RegionPart",
-      "suffix": "-barrel-3",
-      "under": true,
-      "outlineLayerOffset": -0.001,
-      "recoilIndex": 3,
-      "progress": "recoil",
-      "moveY": 0
-      },
-      {
-      "type": "RegionPart",
-      "suffix": "-barrel-4",
-      "under": true,
-      "outlineLayerOffset": -0.001,
-      "recoilIndex": 2,
-      "progress": "recoil",
-      "moveY": 0
       }
       ],
       "shoot": {
@@ -80,10 +62,8 @@
       "source": {
       "type": "ShootBarrel",
       "barrels": [
-       42, 65, 0,
-      -42, 65, 0,
-       24, 64, 0,
-      -24, 64, 0
+       0, 0, 0,
+       0, 0, 0
       ]
       },
       "dest": [
