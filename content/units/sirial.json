@@ -28,26 +28,24 @@
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
-      "parts": [
-      {
-      "type": "RegionPart",
-      "suffix": "-barrel-1",
-      "under": true,
-      "outlineLayerOffset": -0.001,
-      "recoilIndex": 1,
-      "progress": "recoil",
-      "moveY": 0
+      "shoot": {
+      "type": "ShootMulti",
+      "source": {
+      "type": "ShootBarrel",
+      "barrels": [
+       1, 1, 0,
+       1, 1, 0
+      ]
       },
+      "dest": [
       {
-      "type": "RegionPart",
-      "suffix": "-barrel-2",
-      "under": true,
-      "outlineLayerOffset": -0.001,
-      "recoilIndex": 0,
-      "progress": "recoil",
-      "moveY": 0
+      "type": "ShootHelix",
+      "scl": 1.25, 
+      "mag": 1,
+      "shots" : 1
       }
-      ],
+      ]
+      },
       "bullet": { 
       "type": "basicBulletType",
       "hitEffect": {
