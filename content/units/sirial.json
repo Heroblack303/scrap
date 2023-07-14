@@ -58,10 +58,7 @@
       "intervalBullet": {
       "type": "LightningBulletType",
       "lightningColor": "90C3B7",
-      "buildingDamageMultiplier": 0.5,
       "damage": 35,
-      "healPercent": 5,
-      "collidesTeam": true,
       "lightningLength": 4
       },
       "hitColor": "C7D7E0",
@@ -78,7 +75,11 @@
       },
       "shrinkY": 0,
       "shrinkX": 0,
+      "buildingDamageMultiplier": 0.5,
       "damage": 70,
+      "homingPower": 0.2,
+      "healPercent": 5,
+      "collidesTeam": true,
       "trailLength": 8,
       "trailWidth": 4.0,
       "trailColor": "90C3B7",
