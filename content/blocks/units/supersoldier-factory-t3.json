@@ -1,0 +1,31 @@
+{
+    "type": "Reconstructor",
+    "name": "Supersoldier Factory 3",
+    "description": "Supersoldier Factory 3.",
+    "health": 1200,
+    "size": 5,
+    "constructTime": 2700,
+    "upgrades": [
+      ["external", "sirial"]
+      ],
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+              "titanium/160",
+              "plastanium/80",
+              "phase-fabricr/40"
+            ]
+        }
+    },
+    "requirements": [
+      "lead/600",
+      "silicon/300",
+      "metaglass/300",
+      "titanium/150",
+      "plastanium/100",
+      "phase-fabricr/50"
+    ],
+    "category": "units",
+    "research": "supersoldier-factory-t2"
+ }

@@ -4,7 +4,7 @@
   "description": "Sirial.",
   "speed": 0.5,
   "rotateSpeed" : 3,
-  "research": "supersoldier-factory-2",
+  "research": "supersoldier-factory-t3",
   "buildSpeed": 3,
   "mineSpeed": 12,
   "mineTier": 4,

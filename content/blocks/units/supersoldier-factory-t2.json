@@ -18,7 +18,6 @@
         }
     },
     "requirements": [
-      "copper/300",
       "lead/300",
       "silicon/150",
       "metaglass/150",
