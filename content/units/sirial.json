@@ -2,16 +2,16 @@
   "type": "mech",
   "name": "[green]Sirial",
   "description": "Sirial.",
-  "speed": 0.75,
+  "speed": 0.5,
   "rotateSpeed" : 3,
   "research": "supersoldier-factory-2",
-  "buildSpeed": 1.1,
-  "mineSpeed": 6,
-  "mineTier": 3,
+  "buildSpeed": 3,
+  "mineSpeed": 12,
+  "mineTier": 4,
   "canAttack": false,
-  "armor": 10,
+  "armor": 40,
   "coreUnitDock": true,
-  "health": 200,
+  "health": 1000,
   "flying": false,
   "itemCapacity": 100,
   "hitSize": 2,
@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "sirial-weapon",
-      "reload": 18,
+      "reload": 27,
       "x": 0,
       "y": 0,
       "top": false,
@@ -60,9 +60,9 @@
       "dest": [
       {
       "type": "ShootHelix",
-      "scl": 2.5, 
-      "mag": 2,
-      "shots" : 2
+      "scl": 1.25, 
+      "mag": 1,
+      "shots" : 1
       }
       ]
       },
@@ -74,14 +74,14 @@
       "effects": ["sapExplosion", "circleColorSpark"]
       },
       "intervalBullets": 3,
-      "intervalRandomSpread": 50,
+      "intervalRandomSpread": 25,
       "intervalBullet": {
       "type": "LightningBulletType",
       "lightningColor": "90C3B7",
-      "buildingDamageMultiplier": 0.8,
-      "damage": 40,
+      "buildingDamageMultiplier": 0.5,
+      "damage": 35,
       "healPercent": 5,
-      "lightningLength": 8
+      "lightningLength": 4
       },
       "hitColor": "C7D7E0",
       "lifetime": 40,
@@ -97,7 +97,7 @@
       },
       "shrinkY": 0,
       "shrinkX": 0,
-      "damage": 80,
+      "damage": 70,
       "trailLength": 8,
       "trailWidth": 4.0,
       "trailColor": "90C3B7",
