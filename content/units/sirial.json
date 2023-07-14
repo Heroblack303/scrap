@@ -18,5 +18,90 @@
   "drawBuildBeam": true,
   "mineHardnessScaling": true,
   "controller": "RepairAI",
-  "lowAltitude": true
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "sirial-weapon",
+      "reload": 27,
+      "x": 0,
+      "y": 0,
+      "top": false,
+      "ejectEffect": "none",
+      "shootSound": "mediumCannon",
+      "parts": [
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-1",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 1,
+      "progress": "recoil",
+      "moveY": 0
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-barrel-2",
+      "under": true,
+      "outlineLayerOffset": -0.001,
+      "recoilIndex": 0,
+      "progress": "recoil",
+      "moveY": 0
+      }
+      ],
+      "shoot": {
+      "type": "ShootMulti",
+      "source": {
+      "type": "ShootBarrel",
+      "barrels": [
+       1, 1, 0,
+       1, 1, 0
+      ]
+      },
+      "dest": [
+      {
+      "type": "ShootHelix",
+      "scl": 1.25, 
+      "mag": 1,
+      "shots" : 1
+      }
+      ]
+      },
+      "bullet": { 
+      "type": "basicBulletType",
+      "sprite": "missile-large",
+      "hitEffect": {
+      "type": "MultiEffect"
+      },
+      "intervalBullets": 3,
+      "intervalRandomSpread": 25,
+      "intervalBullet": {
+      "type": "LightningBulletType",
+      "lightningColor": "90C3B7",
+      "buildingDamageMultiplier": 0.5,
+      "damage": 35,
+      "healPercent": 5,
+      "lightningLength": 4
+      },
+      "hitColor": "C7D7E0",
+      "lifetime": 40,
+      "speed": 9,
+      "status": "sapped",
+      "statusDuration": 60,
+      "width": 15,
+      "height": 25,
+      "despawnHit": true,
+      "shootEffect": {
+      "type": "MultiEffect"
+      },
+      "shrinkY": 0,
+      "shrinkX": 0,
+      "damage": 70,
+      "trailLength": 8,
+      "trailWidth": 4.0,
+      "trailColor": "90C3B7",
+      "backColor": "90C3B7",
+      "frontColor": "BFFFEF"
+      }
+      }
+  ]
 }
