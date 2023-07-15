@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "-weapon",
-      "reload": 180,
+      "reload": 270,
       "x": 0,
       "y": 0,
       "top": false,
@@ -37,7 +37,7 @@
         "trailInterval": 3,
         "trailParam": 4,
         "speed": 1,
-        "damage": 200,
+        "damage": 100,
         "homingPower": 0.2,
         "healPercent": 5,
         "pierce": true,
