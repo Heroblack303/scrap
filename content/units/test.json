@@ -52,8 +52,8 @@
         "shrinkX": 0,
         "shrinkY": 0,
         "trailColor": "90C3B7",
-        "trailLength": 3,
-        "trailWidth": 0.5,
+        "trailLength": 30,
+        "trailWidth": 5,
         "despawnEffect": {
             "type": "ExplosionEffect",
             "waveColor": "C7D7E0",
