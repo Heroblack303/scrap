@@ -46,7 +46,7 @@
       }
       ]
       },
-      "bullet": { 
+      "chargeEffect": {
         "type": "MultiEffect",
         "effects": [
             {
@@ -86,7 +86,61 @@
               "colorTo": "ffffff"
             }
         ]
-      }
+      },
+      "type": "BasicBulletType",
+        "smokeEffect": "shootSmokeTitan",
+        "hitColor": "f3e979",
+        "sprite": "large-orb",
+        "trailEffect": "missileTrail",
+        "trailInterval": 3,
+        "trailParam": 4,
+        "speed": 0.5,
+        "damage": 17,
+        "pierce": true,
+        "pierceBuilding": true,
+        "buildingDamageMultiplier": 0.4,
+        "pierceCap": 40,
+        "lifetime": 420,
+        "width": 36,
+        "height": 36,
+        "backColor": "f3e979",
+        "frontColor": "ffffff",
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "trailColor": "f3e979",
+        "trailLength": 12,
+        "trailWidth": 2.2,
+        "despawnEffect": {
+            "type": "ExplosionEffect",
+            "waveColor": "f3e979",
+            "smokeColor": "f3e979",
+            "sparkColor": "ffffff",
+            "waveStroke": 3,
+            "waveRad": 30
+        },
+        "hitEffect": {
+            "type": "ExplosionEffect",
+            "waveColor": "f3e979",
+            "smokeColor": "f3e979",
+            "sparkColor": "ffffff",
+            "waveStroke": 4,
+            "waveRad": 40
+        },
+        "despawnSound": "spark",
+        "hitSound": "spark",
+          "intervalBullet": {
+            "type": "LightningBulletType",
+            "damage": 3,
+            "lightningLength": 14,
+            "hitSound": "spark",
+            "despawnSound": "spark",
+            "lightningColor": "f3e979"
+        },
+        "bulletInterval": 2,
+      "intervalRandomSpread": 360,
+      "intervalBullets": 8,
+      "intervalAngle": 360,
+      "intervalSpread": 300
     }
   ]
 }
