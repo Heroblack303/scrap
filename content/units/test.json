@@ -28,6 +28,24 @@
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
+      "shoot": {
+        "type": "ShootMulti",
+        "source": {
+        "type": "ShootBarrel",
+        "barrels": [
+         1, 1, 0,
+         1, 1, 0
+        ]
+        },
+        "dest": [
+        {
+        "type": "ShootHelix",
+        "scl": 1.25, 
+        "mag": 1,
+        "shots" : 1
+        }
+        ]
+        },
       "bullet": { 
         "type": "BasicBulletType",
         "smokeEffect": "shootSmokeTitan",
@@ -82,7 +100,7 @@
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
-        "bulletInterval": 2,
+        "bulletInterval": 10,
       "intervalRandomSpread": 600,
       "intervalBullets": 4,
       "intervalAngle": 180,
