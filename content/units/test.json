@@ -67,8 +67,8 @@
             "waveColor": "C7D7E09",
             "smokeColor": "90C3B7",
             "sparkColor": "BFFFEF",
-            "waveStroke": 2,
-            "waveRad": 20,
+            "waveStroke": 4,
+            "waveRad": 40,
             "sprite": "missile-large",
             "effects": ["sapExplosion", "circleColorSpark"]
         },
@@ -76,17 +76,17 @@
         "hitSound": "spark",
           "intervalBullet": {
             "type": "LightningBulletType",
-            "damage": 10,
-            "lightningLength": 24,
+            "damage": 5,
+            "lightningLength": 12,
             "hitSound": "spark",
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
         "bulletInterval": 2,
-      "intervalRandomSpread": 180,
+      "intervalRandomSpread": 600,
       "intervalBullets": 4,
       "intervalAngle": 180,
-      "intervalSpread": 150
+      "intervalSpread": 450
     }
   }
   ]
