@@ -83,7 +83,7 @@
             "lightningColor": "90C3B7"
         },
         "bulletInterval": 10,
-      "intervalRandomSpread": 60,
+      "intervalRandomSpread": 6,
       "intervalBullets": 4,
       "intervalAngle": 180,
       "intervalSpread": 45
