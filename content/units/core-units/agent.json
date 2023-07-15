@@ -1,0 +1,68 @@
+{
+  "type": "flying",
+  "name": "[green]Agent",
+  "description": "Agent.",
+  "speed": 5,
+  "research": "alpha",
+  "buildSpeed": 5,
+  "mineSpeed": 18,
+  "mineTier": 5,
+  "canAttack": false,
+  "armor": 10,
+  "coreUnitDock": true,
+  "health": 500,
+  "flying": true,
+  "itemCapacity": 60,
+  "hitSize": 1,
+  "drawBuildBeam": true,
+  "mineHardnessScaling": true,
+  "controller": "RepairAI",
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "agent-weapon",
+      "x": 0,
+      "y": 5,
+      "reload": 9,
+      "rotate": false,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 5,
+        "buildingDamageMultiplier": 0.2,
+        "damage": 6,
+        "pierce": true,
+        "pierceCap": 10,
+        "splashDamage": 6,
+        "mixColorFrom": "90C3B7",
+        "mixColorTo": "BFFFEF",
+        "splashDamageRadius": 2,
+        "homingRange": 80,
+        "homingPower": 0.2,
+        "healPercent": 5,
+        "collidesTeam": true,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "90C3B7",
+                    "colorTo": "BFFFEF",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 2
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "BFFFEF",
+                    "colorTo": "90C3B7",
+                    "rotation": 3,
+                    "sizeFrom": 2,
+                    "sizeTo": 0
+                }
+            ]
+        }
+      }
+    }
+  ]
+}

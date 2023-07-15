@@ -10,8 +10,8 @@
     { "item": "lead","amount": 8000},
     { "item": "silicon","amount": 4000},
     { "item": "titanium","amount": 4000},
-    { "item": "phase-fabric","amount": 1000},
     { "item": "plastanium","amount": 1000},
+    { "item": "phase-fabric","amount": 1000},
     { "item": "surge-alloy","amount": 1000}
   ],
   "category": "effect",

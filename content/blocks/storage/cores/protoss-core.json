@@ -1,0 +1,21 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Protoss",
+  "description": "Protoss core.",
+  "size": 5,
+  "researchCostMultiplier": 0.5,
+  "health": 10000,
+  "itemCapacity": 25000,
+  "requirements": [
+    { "item": "silicon","amount": 4000},
+    { "item": "metaglass","amount": 4000},
+    { "item": "titanium","amount": 4000},
+    { "item": "plastanium","amount": 2000},
+    { "item": "phase-fabric","amount": 2000},
+    { "item": "surge-alloy","amount": 2000}
+  ],
+  "category": "effect",
+  "research": "super-core",
+  "unitType": "agent",
+  "unitCapModifier": 40
+}
