@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "-weapon",
-      "reload": 270,
+      "reload": 360,
       "x": 0,
       "y": 0,
       "top": false,
