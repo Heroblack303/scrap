@@ -22,7 +22,7 @@
     {
       "name": "agent-weapon",
       "x": 0,
-      "y": 5,
+      "y": 0,
       "reload": 9,
       "rotate": false,
       "shootSound": "lasershoot",
