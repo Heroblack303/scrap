@@ -44,7 +44,7 @@
         "pierceBuilding": true,
         "buildingDamageMultiplier": 0.5,
         "pierceCap": 100,
-        "lifetime": 1000,
+        "lifetime": 500,
         "width": 36,
         "height": 36,
         "backColor": "90C3B7",
@@ -82,11 +82,11 @@
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
-        "bulletInterval": 1,
-      "intervalRandomSpread": 36,
-      "intervalBullets": 4,
-      "intervalAngle": 36,
-      "intervalSpread": 30
+        "bulletInterval": 2,
+      "intervalRandomSpread": 360,
+      "intervalBullets": 8,
+      "intervalAngle": 360,
+      "intervalSpread": 300
     }
   }
   ]
