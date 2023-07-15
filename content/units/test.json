@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "-weapon",
-      "reload": 90,
+      "reload": 180,
       "x": 0,
       "y": 0,
       "top": false,
@@ -68,13 +68,15 @@
             "smokeColor": "90C3B7",
             "sparkColor": "BFFFEF",
             "waveStroke": 2,
-            "waveRad": 20
+            "waveRad": 20,
+            "sprite": "missile-large",
+            "effects": ["sapExplosion", "circleColorSpark"]
         },
         "despawnSound": "spark",
         "hitSound": "spark",
           "intervalBullet": {
             "type": "LightningBulletType",
-            "damage": 40,
+            "damage": 10,
             "lightningLength": 14,
             "hitSound": "spark",
             "despawnSound": "spark",
