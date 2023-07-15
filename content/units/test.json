@@ -77,14 +77,14 @@
           "intervalBullet": {
             "type": "LightningBulletType",
             "damage": 10,
-            "lightningLength": 6,
+            "lightningLength": 15,
             "hitSound": "spark",
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
-        "bulletInterval": 2,
+        "bulletInterval": 4,
       "intervalRandomSpread": 360,
-      "intervalBullets": 8,
+      "intervalBullets": 16,
       "intervalAngle": 360,
       "intervalSpread": 300
     }
