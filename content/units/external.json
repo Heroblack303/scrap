@@ -30,7 +30,7 @@
       "ejectEffect": "casing1",
       "bullet": {
         "type": "MissileBulletType",
-        "speed": 6,
+        "speed": 5,
         "damage": 20,
         "lifetime": 60,
         "homingPower": 0.2,

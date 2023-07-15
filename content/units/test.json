@@ -1,0 +1,92 @@
+{
+  "type": "mech",
+  "name": "[green]Sirial",
+  "description": "Sirial.",
+  "speed": 0.5,
+  "rotateSpeed" : 3,
+  "research": "supersoldier-factory-t3",
+  "buildSpeed": 3,
+  "mineSpeed": 12,
+  "mineTier": 4,
+  "canAttack": false,
+  "armor": 40,
+  "coreUnitDock": true,
+  "health": 1000,
+  "flying": false,
+  "itemCapacity": 100,
+  "hitSize": 10,
+  "drawBuildBeam": true,
+  "mineHardnessScaling": true,
+  "controller": "RepairAI",
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "sirial-weapon",
+      "reload": 27,
+      "x": 0,
+      "y": 0,
+      "top": false,
+      "ejectEffect": "none",
+      "shootSound": "mediumCannon",
+      "shoot": {
+      "type": "ShootMulti",
+      "source": {
+      "type": "ShootBarrel",
+      "barrels": [
+       1, 1, 0,
+       1, 1, 0
+      ]
+      },
+      "dest": [
+      {
+      "type": "ShootHelix",
+      "scl": 1.25, 
+      "mag": 1,
+      "shots" : 1
+      }
+      ]
+      },
+      "bullet": { 
+        "type": "MultiEffect",
+        "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 20,
+              "offset": 100,
+              "sizeFrom": 1,
+              "sizeTo": 6,
+              "length": 40,
+              "baseLength": -40,
+              "interp": "pow3In",
+              "sizeInterp": "pow5Out",
+              "lifetime": 110,
+              "colorFrom": "f3e979",
+              "colorTo": "ffffff"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 140,
+              "sizeFrom": 50,
+              "sizeTo": 0,
+              "interp": "pow5Out",
+              "strokeFrom": 0,
+              "strokeTo": 4,
+              "colorFrom": "f3e979",
+              "colorTo": "ffffff" 
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 150,
+              "sizeFrom": 60,
+              "sizeTo": 0,
+              "interp": "pow10Out",
+              "strokeFrom": 0,
+              "strokeTo": 4,
+              "colorFrom": "f3e979",
+              "colorTo": "ffffff"
+            }
+        ]
+      }
+    }
+  ]
+}
