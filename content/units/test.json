@@ -45,22 +45,22 @@
         "buildingDamageMultiplier": 0.5,
         "pierceCap": 40,
         "lifetime": 420,
-        "width": 18,
-        "height": 18,
+        "width": 36,
+        "height": 36,
         "backColor": "90C3B7",
         "frontColor": "BFFFEF",
         "shrinkX": 0,
         "shrinkY": 0,
         "trailColor": "90C3B7",
-        "trailLength": 6,
-        "trailWidth": 1.1,
+        "trailLength": 12,
+        "trailWidth": 2,
         "despawnEffect": {
             "type": "ExplosionEffect",
             "waveColor": "C7D7E0",
             "smokeColor": "90C3B7",
             "sparkColor": "BFFFEF",
-            "waveStroke": 1.5,
-            "waveRad": 15
+            "waveStroke": 3,
+            "waveRad": 30
         },
         "hitEffect": {
             "type": "ExplosionEffect",
@@ -82,11 +82,11 @@
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
-        "bulletInterval": 2.5,
-      "intervalRandomSpread": 600,
-      "intervalBullets": 1,
-      "intervalAngle": 18,
-      "intervalSpread": 450
+        "bulletInterval": 2,
+      "intervalRandomSpread": 360,
+      "intervalBullets": 8,
+      "intervalAngle": 360,
+      "intervalSpread": 300
     }
   }
   ]
