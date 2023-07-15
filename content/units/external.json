@@ -14,7 +14,7 @@
   "health": 600,
   "flying": false,
   "itemCapacity": 50,
-  "hitSize": 1.5,
+  "hitSize": 8,
   "drawBuildBeam": true,
   "mineHardnessScaling": true,
   "controller": "RepairAI",
