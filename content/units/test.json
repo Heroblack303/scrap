@@ -59,16 +59,16 @@
             "waveColor": "C7D7E0",
             "smokeColor": "90C3B7",
             "sparkColor": "BFFFEF",
-            "waveStroke": 0.5,
-            "waveRad": 5
+            "waveStroke": 1.5,
+            "waveRad": 15
         },
         "hitEffect": {
             "type": "ExplosionEffect",
             "waveColor": "C7D7E09",
             "smokeColor": "90C3B7",
             "sparkColor": "BFFFEF",
-            "waveStroke": 0.1,
-            "waveRad": 1,
+            "waveStroke": 4,
+            "waveRad": 40,
             "sprite": "missile-large",
             "effects": ["sapExplosion", "circleColorSpark"]
         },
@@ -82,10 +82,10 @@
             "despawnSound": "spark",
             "lightningColor": "90C3B7"
         },
-        "bulletInterval": 10,
+        "bulletInterval": 2.5,
       "intervalRandomSpread": 600,
-      "intervalBullets": 4,
-      "intervalAngle": 180,
+      "intervalBullets": 1,
+      "intervalAngle": 18,
       "intervalSpread": 450
     }
   }
