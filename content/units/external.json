@@ -3,7 +3,7 @@
   "name": "[green]External",
   "description": "External.",
   "speed": 0.6,
-  "rotateSpeed" : 3,
+  "rotateSpeed" : 1.4,
   "research": "supersoldier-factory-t2",
   "buildSpeed": 2,
   "mineSpeed": 9,

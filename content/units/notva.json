@@ -3,7 +3,7 @@
   "name": "[green]Notva",
   "description": "Notva.",
   "speed": 0.7,
-  "rotateSpeed" : 3,
+  "rotateSpeed" : 1.6,
   "research": "supersoldier-factory",
   "buildSpeed": 1,
   "mineSpeed": 6,

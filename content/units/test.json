@@ -3,7 +3,7 @@
   "name": "[green]t4",
   "description": "t4.",
   "speed": 0.4,
-  "rotateSpeed" : 3,
+  "rotateSpeed" : 1,
   "research": "supersoldier-factory-t4",
   "buildSpeed": 3,
   "mineSpeed": 12,

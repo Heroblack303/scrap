@@ -3,7 +3,7 @@
   "name": "[green]Sirial",
   "description": "Sirial.",
   "speed": 0.5,
-  "rotateSpeed" : 3,
+  "rotateSpeed" : 1.2,
   "research": "supersoldier-factory-t3",
   "buildSpeed": 3,
   "mineSpeed": 12,
@@ -34,7 +34,9 @@
       "type": "ShootBarrel",
       "barrels": [
        1, 1, 0,
-       1, 1, 0
+       -1, 1, 0,
+       0, 1, 1,
+       0, 1, -1
       ]
       },
       "dest": [
