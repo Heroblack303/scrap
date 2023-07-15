@@ -40,9 +40,9 @@
       "dest": [
       {
       "type": "ShootHelix",
-      "scl": 1.25, 
-      "mag": 1,
-      "shots" : 1
+      "scl": 5, 
+      "mag": 4,
+      "shots" : 2
       }
       ]
       },

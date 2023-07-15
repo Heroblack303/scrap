@@ -28,24 +28,6 @@
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
-      "shoot": {
-        "type": "ShootMulti",
-        "source": {
-        "type": "ShootBarrel",
-        "barrels": [
-         1, 1, 0,
-         1, 1, 0
-        ]
-        },
-        "dest": [
-        {
-        "type": "ShootHelix",
-        "scl": 1.25, 
-        "mag": 1,
-        "shots" : 1
-        }
-        ]
-        },
       "bullet": { 
         "type": "BasicBulletType",
         "smokeEffect": "shootSmokeTitan",
@@ -94,7 +76,7 @@
         "hitSound": "spark",
           "intervalBullet": {
             "type": "LightningBulletType",
-            "damage": 5,
+            "damage": 10,
             "lightningLength": 12,
             "hitSound": "spark",
             "despawnSound": "spark",
