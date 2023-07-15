@@ -22,30 +22,12 @@
   "weapons": [
     {
       "name": "sirial-weapon",
-      "reload": 54,
+      "reload": 90,
       "x": 0,
       "y": 0,
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
-      "shoot": {
-      "type": "ShootMulti",
-      "source": {
-      "type": "ShootBarrel",
-      "barrels": [
-       1, 1, 0,
-       1, 1, 0
-      ]
-      },
-      "dest": [
-      {
-      "type": "ShootHelix",
-      "scl": 1.25, 
-      "mag": 1,
-      "shots" : 1
-      }
-      ]
-      },
       "bullet": { 
         "type": "BasicBulletType",
         "smokeEffect": "shootSmokeTitan",
@@ -54,7 +36,7 @@
         "trailEffect": "missileTrail",
         "trailInterval": 3,
         "trailParam": 4,
-        "speed": 4,
+        "speed": 2,
         "damage": 100,
         "homingPower": 0.2,
         "healPercent": 5,
