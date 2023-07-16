@@ -21,7 +21,7 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "Ion-cannon-heat2,Ion-cannon2",
+      "name": ["Ion-cannon-heat2" ,"Ion-cannon2"],
       "reload": 360,
       "x": 0,
       "y": 0,
