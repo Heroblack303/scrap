@@ -54,7 +54,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "shootEffect": "shootHealYellow",
-        "damage": 40,
+        "damage": 20,
         "speed": 8,
         "keepVelocity": false,
         "frontColor": "BFFFEF",
