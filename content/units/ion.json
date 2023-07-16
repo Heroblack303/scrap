@@ -4,24 +4,24 @@
   "description": "Ion.",
   "speed": 0.4,
   "drag": 0.4,
-  "hitSize": 13,
+  "hitSize": 12,
   "rotateSpeed": 1.0,
   "targetAir": false,
   "health": 9000,
   "immunities": ["burning", "melting"],
   "legCount": 4,
-  "legLength": 9,
+  "legLength": 6,
   "legForwardScl": 0.6,
   "legMoveSpace": 1.4,
   "hovering": true,
-  "armor": 2,
+  "armor": 80,
   "shadowElevation": 0.2,
   "groundLayer": 74,
   "weapons": [
     
     {
       "name": "ion-cannon" ,
-      "reload": 180,
+      "reload": 90,
       "x": 16,
       "y": 0,
       "top": false,
@@ -51,7 +51,7 @@
         "type": "MissileBulletType",
         "shootEffect": "shootHealYellow",
         "damage": 40,
-        "speed": 12,
+        "speed": 8,
         "keepVelocity": false,
         "frontColor": "BFFFEF",
         "backColor": "F3E979FF",
@@ -59,8 +59,8 @@
         "lifetime": 55,
         "homingPower": 1,
         "homingRange": 100,
-        "weaveScale": 5,
-        "weaveMag": 2,
+        "weaveScale": 10,
+        "weaveMag": 4,
         "splashDamageRadius": 20,
         "splashDamage": 10,
         "lightning": 5,
@@ -74,7 +74,7 @@
     "name": "ion-weapon",
     "x": 0,
     "y": 0,
-    "shootX": 0,
+    "shootX": 5,
     "shootY": 0,
     "reload": 18,
     "rotate": false,
@@ -116,6 +116,15 @@
           ]
       }
     }
+  }
+],
+"abilities": [
+  {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 200,
+    "regen": 5,
+    "max": 3000,
+    "cooldown": 300
   }
 ]
 }
