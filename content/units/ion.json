@@ -21,8 +21,8 @@
     {
       "name": "ion-cannon" ,
       "reload": 360,
-      "x": 0,
-      "y": 8,
+      "x": 8,
+      "y": 0,
       "top": false,
       "ejectEffect": "none",
       "shootSound": "mediumCannon",
@@ -94,7 +94,7 @@
   },
   {
     "name": "ion-weapon",
-    "x": 0,
+    "x": 5,
     "y": 5,
     "shootX": 0,
     "shootY": 1,
