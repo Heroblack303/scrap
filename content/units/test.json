@@ -47,6 +47,11 @@
         "lifetime": 400,
         "width": 36,
         "height": 36,
+        "despawnHit": true,
+        "shootEffect": {
+        "type": "MultiEffect",
+        "effects": ["explosion", "colorSparkBig"]
+        },
         "backColor": "90C3B7",
         "frontColor": "BFFFEF",
         "shrinkX": 0,
