@@ -56,7 +56,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "shootEffect": "shootHealYellow",
-        "damage": 10,
+        "damage": 8,
         "speed": 8,
         "keepVelocity": false,
         "frontColor": "BFFFEF",
@@ -68,19 +68,19 @@
         "weaveScale": 10,
         "weaveMag": 4,
         "splashDamageRadius": 20,
-        "splashDamage": 5,
-        "lightning": 5,
-        "lightningDamage": 5,
-        "lightningLength": 5,
+        "splashDamage": 4,
+        "lightning": 4,
+        "lightningDamage": 4,
+        "lightningLength": 4,
         "lightningCone": 360,
-        "lightningLengthRand": 10
+        "lightningLengthRand": 8
       }
     },
   {
     "name": "ion-cannon",
     "x": 16,
     "y": 0,
-    "shootX": 16,
+    "shootX": 0,
     "shootY": 0,
     "reload": 45,
     "rotate": false,
