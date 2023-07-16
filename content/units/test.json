@@ -1,5 +1,5 @@
 {
-  "type": "mech",
+  "type": "legs",
   "name": "[green]t4",
   "description": "t4.",
   "speed": 0.4,
@@ -21,7 +21,7 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "Ion-cannon-heat2" ,
+      "name": "Ion-cannon2" ,
       "reload": 360,
       "x": 0,
       "y": 0,
