@@ -21,7 +21,7 @@
     
     {
       "name": "ion-weapon" ,
-      "reload": 18,
+      "reload": 27,
       "x": 5,
       "y": 0,
       "shootX": 5,
@@ -82,7 +82,7 @@
     "y": 0,
     "shootX": 0,
     "shootY": 0,
-    "reload": 45,
+    "reload": 90,
     "rotate": false,
     "shootSound": "lasershoot",
     "bullet": {
