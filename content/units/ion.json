@@ -21,7 +21,7 @@
     
     {
       "name": "ion-cannon" ,
-      "reload": 90,
+      "reload": 45,
       "x": 16,
       "y": 0,
       "top": false,
@@ -45,9 +45,9 @@
         "dest": [
         {
         "type": "ShootHelix",
-        "scl": 5, 
-        "mag": 4,
-        "shots" : 2
+        "scl": 10, 
+        "mag": 8,
+        "shots" : 4
         }
         ]
         },
