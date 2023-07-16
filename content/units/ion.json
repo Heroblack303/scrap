@@ -64,6 +64,7 @@
         "trailColor": "90C3B7",
         "lifetime": 55,
         "homingPower": 1,
+        "healPercent": 5,
         "homingRange": 100,
         "weaveScale": 10,
         "weaveMag": 4,
@@ -87,7 +88,8 @@
     "shootSound": "lasershoot",
     "bullet": {
       "type": "basicBulletType",
-      "damage": 70,
+      "damage": 90,
+      "buildingDamageMultiplier": 0.8,
       "splashDamage": 35,
       "splashDamageRadius": 35,
       "width": 15,

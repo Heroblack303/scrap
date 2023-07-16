@@ -31,7 +31,8 @@
       "bullet": {
         "type": "MissileBulletType",
         "speed": 5,
-        "damage": 20,
+        "damage": 25,
+        "buildingDamageMultiplier": 0.6,
         "lifetime": 60,
         "homingPower": 0.2,
         "healPercent": 5,
