@@ -20,10 +20,12 @@
   "weapons": [
     
     {
-      "name": "ion-cannon" ,
-      "reload": 45,
-      "x": 16,
+      "name": "ion-weapon" ,
+      "reload": 18,
+      "x": 5,
       "y": 0,
+      "shootX": 5,
+      "shootY": 0,
       "top": false,
       "ejectEffect": "none",
       "shootSound": "missile",
@@ -54,7 +56,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "shootEffect": "shootHealYellow",
-        "damage": 25,
+        "damage": 10,
         "speed": 8,
         "keepVelocity": false,
         "frontColor": "BFFFEF",
@@ -66,58 +68,84 @@
         "weaveScale": 10,
         "weaveMag": 4,
         "splashDamageRadius": 20,
-        "splashDamage": 10,
+        "splashDamage": 5,
         "lightning": 5,
-        "lightningDamage": 10,
+        "lightningDamage": 5,
         "lightningLength": 5,
         "lightningCone": 360,
         "lightningLengthRand": 10
       }
     },
   {
-    "name": "ion-weapon",
-    "x": 0,
+    "name": "ion-cannon",
+    "x": 16,
     "y": 0,
-    "shootX": 5,
+    "shootX": 16,
     "shootY": 0,
-    "reload": 18,
+    "reload": 45,
     "rotate": false,
     "shootSound": "lasershoot",
     "bullet": {
-      "type": "LaserBoltBulletType",
-      "speed": 9,
-      "buildingDamageMultiplier": 0.5,
-      "damage": 20,
+      "type": "basicBulletType",
+      "damage": 100,
+      "splashDamage": 50,
+      "splashDamageRadius": 25,
+      "width": 15,
+      "height": 15,
+      "shootEffect": "instBomb",
+      "sprite": "circle-bullet",
+      "pierceCap": 5,
       "pierce": true,
-      "pierceCap": 10,
-      "splashDamage": 20,
-      "mixColorFrom": "90C3B7",
-      "mixColorTo": "C7D7E0",
-      "splashDamageRadius": 20,
-      "homingRange": 80,
-      "homingPower": 2,
-      "healPercent": 5,
-      "collidesTeam": true,
+      "knockback": 10,
+      "shrinkY": 0,
+      "shrinkX": 0,
+      "trailColor": "C7D7E0",
+      "trailChance": 1,
+      "trailParam": 5,
+      "trailEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 5,
+        "sizeTo": 8,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "90C3B7",
+        "colorTo": "C7D7E0"
+      },
+      "trailLength": 18,
+      "trailInterval": 15,
+      "trailWidth": 5,
+      "lightning": 8,
+      "lightningDamage": 44,
+      "lightningLength": 5,
+      "lightningCone": 360,
+      "lightningLengthRand": 8,
+      "speed": 10,
+      "lifetime": 55,
+      "frontColor": "BFFFEF",
+      "backColor": "90C3B7",
+      "despawnEffect": {
+        "type": "ParticleEffect",
+        "particles": 30,
+        "length": 60,
+        "lifetime": 46,
+        "interp": "circleOut",
+        "cone": 360,
+        "colorFrom": "90C3B7",
+        "colorTo": "C7D7E0",
+        "sizeFrom": 5,
+        "sizeTo": 0
+      },
       "hitEffect": {
-          "type": "MultiEffect",
-          "effects": [
-              {
-                  "type": "WaveEffect",
-                  "colorFrom": "90C3B7",
-                  "colorTo": "C7D7E0",
-                  "rotation": 15,
-                  "sizeFrom": 0,
-                  "sizeTo": 10
-              },
-              {
-                  "type": "WaveEffect",
-                  "colorFrom": "90C3B7",
-                  "colorTo": "C7D7E0",
-                  "rotation": 15,
-                  "sizeFrom": 10,
-                  "sizeTo": 0
-              }
-          ]
+        "type": "ParticleEffect",
+        "particles": 30,
+        "length": 60,
+        "lifetime": 46,
+        "interp": "circleOut",
+        "cone": 360,
+
+        "sizeFrom": 5,
+        "sizeTo": 0
       }
     }
   }
@@ -125,7 +153,7 @@
 "abilities": [
   {
     "type": "mindustry.entities.abilities.ForceFieldAbility",
-    "radius": 200,
+    "radius": 120,
     "regen": 5,
     "max": 3000,
     "cooldown": 300
