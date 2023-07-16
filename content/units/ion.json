@@ -1,33 +1,43 @@
 {
   "type": "legs",
-  "name": "[green]t4",
-  "description": "A Toxopid-like unit. The secondary cannons shoot out sapping lasers instead of normal ones. Equipped with significantly more armor and attack power than a regular Toxopid.",
-  "drag": 0.1,
-  "speed": 0.53333,
-  "hitSize": 26,
-  "health": 30000,
-  "armor": 19,
-  "lightRadius": 140,
-  "rotateSpeed": 1.9,
-  "drownTimeMultiplier": 3,
-  "legCount": 8,
-  "legMoveSpace": 0.8,
-  "legPairOffset": 3,
-  "legLength": 75,
-  "legExtension": -20,
-  "legBaseOffset": 8,
-  "stepShake": 1,
-  "legLengthScl": 0.93,
-  "rippleScale": 3,
-  "legSpeed": 0.19,
-  "legSplashDamage": 80,
-  "legSplashRange": 60,
-  "hovering": true,
-  "shadowElevation": 0.95,
+  "name": "[green]Ion",
+  "description": "Ion.",
   "groundLayer": 75,
+  "singleTarget": true,
+  "drawShields": false,
+  "lightRadius": 120,
+  "canDrown": false,
+  "speed": 0.8,
+  "hitSize": 15,
+  "health": 9000,
+  "armor": 80,
+  "drag": 0.2,
+  "drownTimeMultiplier": 7,
+  "flying": false,
+  "targetAir": true,
+  "rotateSpeed": 1.4,
+  "legCount": 4,
+  "legMoveSpace": 0.5,
+  "legLength": 19,
+  "legBaseOffset": 15,
+  "legTrns": 0.6,
+  "landShake": 1,
+  "legSpeed": 0.15,
+  "rippleScale": 10.5,
+  "legSplashDamage": 100,
+  "legSplashRange": 18,
+  "visualElevation": 0.65,
+  "allowLegStep": true,
+  "hovering": true,
+  "immunities": [
+    "burning",
+    "melting",
+    "corroded",
+    "slow"
+  ],
   "weapons": [
     {
-      "name": "Ion-cannon2" ,
+      "name": "ion-cannon" ,
       "reload": 360,
       "x": 0,
       "y": 0,
@@ -99,6 +109,53 @@
       "intervalAngle": 360,
       "intervalSpread": 300
     }
+  },
+  {
+    "name": "ion-weapon",
+    "x": 0,
+    "y": 1,
+    "shootX": 0,
+    "shootY": 1,
+    "reload": 18,
+    "rotate": false,
+    "shootSound": "lasershoot",
+    "bullet": {
+      "type": "LaserBoltBulletType",
+      "speed": 9,
+      "buildingDamageMultiplier": 0.5,
+      "damage": 20,
+      "pierce": true,
+      "pierceCap": 10,
+      "splashDamage": 20,
+      "mixColorFrom": "90C3B7",
+      "mixColorTo": "C7D7E0",
+      "splashDamageRadius": 20,
+      "homingRange": 80,
+      "homingPower": 2,
+      "healPercent": 5,
+      "collidesTeam": true,
+      "hitEffect": {
+          "type": "MultiEffect",
+          "effects": [
+              {
+                  "type": "WaveEffect",
+                  "colorFrom": "90C3B7",
+                  "colorTo": "C7D7E0",
+                  "rotation": 15,
+                  "sizeFrom": 0,
+                  "sizeTo": 10
+              },
+              {
+                  "type": "WaveEffect",
+                  "colorFrom": "90C3B7",
+                  "colorTo": "C7D7E0",
+                  "rotation": 15,
+                  "sizeFrom": 10,
+                  "sizeTo": 0
+              }
+          ]
+      }
+    }
   }
-  ]
+]
 }
