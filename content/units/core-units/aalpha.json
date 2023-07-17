@@ -6,7 +6,7 @@
   "research": "alpha",
   "buildSpeed": 2,
   "mineSpeed": 6,
-  "mineTier": "copper",
+  "mineTier": 3,
   "canAttack": false,
   "armor": 10,
   "coreUnitDock": true,
