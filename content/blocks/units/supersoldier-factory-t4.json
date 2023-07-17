@@ -3,7 +3,7 @@
     "name": "Supersoldier Factory 4",
     "description": "Supersoldier Factory 4.",
     "health": 1200,
-    "size": 5,
+    "size": 7,
     "constructTime": 3600,
     "upgrades": [
       ["sirial", "ion"]
