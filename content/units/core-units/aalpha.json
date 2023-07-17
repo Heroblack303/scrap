@@ -13,6 +13,8 @@
   "health": 100,
   "flying": true,
   "itemCapacity": 60,
+  "craftTime": 60,
+  "outputItem": { "item": "scrap", "amount": 50},
   "hitSize": 1,
   "drawBuildBeam": true,
   "mineHardnessScaling": true,
