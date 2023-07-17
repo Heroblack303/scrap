@@ -12,12 +12,12 @@
   "immunities": ["burning", "melting"],
   "legCount": 4,
   "legLength": 6,
-  "legForwardScl": 0.6,
-  "legMoveSpace": 1.4,
+  "legForwardScl": 0.5,
+  "legMoveSpace": 1.5,
   "hovering": true,
   "armor": 80,
   "shadowElevation": 0.2,
-  "groundLayer": 60,
+  "groundLayer": 80,
   "weapons": [
     
     {
