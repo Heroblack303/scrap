@@ -1,0 +1,34 @@
+{
+    "type": "Reconstructor",
+    "name": "Supersoldier Factory 4",
+    "description": "Supersoldier Factory 4.",
+    "health": 1200,
+    "size": 5,
+    "constructTime": 3600,
+    "upgrades": [
+      ["sirial", "ion"]
+      ],
+    "consumes": {
+        "power": 8,
+        "liquid": "cryofluid/0.5",
+        "items": {
+            "items": [
+              "titanium/800",
+              "plastanium/600",
+              "phase-fabric/400",
+              "surge-alloy/200"
+            ]
+        }
+    },
+    "requirements": [
+      "lead/3000",
+      "silicon/1500",
+      "metaglass/1500",
+      "titanium/750",
+      "plastanium/500",
+      "phase-fabric/250",
+      "surge-alloy/250"
+    ],
+    "category": "units",
+    "research": "supersoldier-factory-t3"
+ }

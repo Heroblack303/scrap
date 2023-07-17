@@ -9,7 +9,7 @@
       ["notva", "external"]
       ],
     "consumes": {
-        "power": 1.0,
+        "power": 2,
         "items": {
             "items": [
               "titanium/80",

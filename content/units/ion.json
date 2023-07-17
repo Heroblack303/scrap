@@ -6,7 +6,8 @@
   "drag": 0.4,
   "hitSize": 12,
   "rotateSpeed": 1.0,
-  "targetAir": false,
+  "research": "supersoldier-factory-t4",
+  "buildSpeed": 8,
   "health": 9000,
   "immunities": ["burning", "melting"],
   "legCount": 4,
@@ -16,7 +17,7 @@
   "hovering": true,
   "armor": 80,
   "shadowElevation": 0.2,
-  "groundLayer": 74,
+  "groundLayer": 60,
   "weapons": [
     
     {

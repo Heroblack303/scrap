@@ -9,7 +9,7 @@
       ["external", "sirial"]
       ],
     "consumes": {
-        "power": 2,
+        "power": 4,
         "items": {
             "items": [
               "titanium/160",

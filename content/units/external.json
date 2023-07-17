@@ -7,7 +7,7 @@
   "research": "supersoldier-factory-t2",
   "buildSpeed": 2,
   "mineSpeed": 9,
-  "mineTier": 3,
+  "mineTier": 4,
   "canAttack": false,
   "armor": 20,
   "coreUnitDock": true,
