@@ -3,7 +3,7 @@
 "name": "[red]Zomber King",
 "description": "Zomber King.",
 "speed": 0.1,
-"hitSize": 1300,
+"hitSize": 260,
 "health": 100000,
 "armor": 1000,
 "rotateSpeed": 2.5,
@@ -201,7 +201,7 @@
 },
 {
 "name": "shadow-weapon",
-"x": 875,
+"x": 175,
 "y": 0,
 "reload": 30,
 "top": false,
