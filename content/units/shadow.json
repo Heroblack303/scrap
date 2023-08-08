@@ -264,7 +264,6 @@
 ],
 "research": { 
 "parent": "emptiness",
-"objectives": ["logic-encoder"],
 "requirements": [ 
 "silicon/9000",
 "titanium/8500"
