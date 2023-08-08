@@ -1,3 +1,6 @@
+type: mech
+name: [red]Zomber King
+description: Zomber King.
 speed: 0.1
 hitSize: 1300
 health: 100000
