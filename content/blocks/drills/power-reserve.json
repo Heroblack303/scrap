@@ -1,11 +1,14 @@
 {
-	"type": "PowerNode",
+	"type": "BeamNode",
 	"name": "Power Reserve",
   "description": "A HUGE battery capable of storing vast amounts of power.",
 	"size": 6,
 	"health": 1480,
 	"laserRange": 18,
 	"maxNodes": 15,
+	"fogRadius": 1,
+	"consumesPower": true,
+	"outputsPower": true,
 	"category": "power",
 	"requirements": [
 		{"item": "lead", "amount": 300},
