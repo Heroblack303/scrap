@@ -1,5 +1,5 @@
 {
-	"type": "battery",
+	"type": "PowerNode",
 	"name": "Power Reserve",
   "description": "A HUGE battery capable of storing vast amounts of power.",
 	"size": 6,
