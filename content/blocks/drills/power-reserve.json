@@ -1,21 +1,16 @@
 {
 	"type": "BeamNode",
-	"name": "Power Reserve",
-  "description": "A HUGE battery capable of storing vast amounts of power.",
-	"size": 6,
-	"health": 1480,
-	"laserRange": 18,
-	"maxNodes": 15,
+	"name": "name",
+  "description": "description.",
+	"size": 1,
+	"health": 1000,
 	"fogRadius": 1,
 	"consumesPower": true,
 	"outputsPower": true,
 	"category": "power",
 	"requirements": [
-		{"item": "lead", "amount": 300},
-		{"item": "silicon", "amount": 100},
-		{"item": "titanium", "amount": 120},
-		{"item": "surge-alloy", "amount": 25}
+		{"item": "lead", "amount": 300}
 	],
-	"consumes": { "powerBuffered": 500000 },
-	"research": "reinforced-large-power-node"
+	"consumes": { "powerBuffered": 1000 },
+	"research": "none"
 }
