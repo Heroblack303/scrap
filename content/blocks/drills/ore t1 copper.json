@@ -27,5 +27,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "copper", "amount": 8}
+  "outputItem": { "item": "copper", "amount": 10}
 }
