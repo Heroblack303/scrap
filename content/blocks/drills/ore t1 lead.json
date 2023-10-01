@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ore lead",
+  "description": "Ore lead",
+  "health": 500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 100},
+    { "item": "lead", "amount": 100},
+    { "item": "coal", "amount": 50}
+  ],
+  "research": "ore t1",
+  "hasPower": false,
+  "hasItems": true,
+  "craftTime": 30,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "scrap",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "lead", "amount": 8}
+}
